@@ -1,0 +1,5 @@
+cd wordpress
+git fetch --tags
+git checkout 3.X
+cd ..
+git commit -m "Update Wordpress to version 3.X"
