@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/*
+Theme Name: YOIRIDE Twenty Fourteen Child theme 
+Template: twentyfourteen
+Theme URI: 
+Author: YOIRIDE 
+Author URI: http://www.yoiride.se 
+Description: YOIRIDE custom theme. 
+Version: 1.0
+Tags: TwentyFourteen Child Theme
+*/
+
+
+/* @import url("../twentyfourteen/style.css");  
+*/
+
+/* karmint & pixelkojan presenterar yoiride racing */
+
+
+/* karmint & pixelkojan presenterar yoiride racing */
+
+/* FONTS */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 65px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+hr {
+	    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+p {
+	font-size: 18px;
+}
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.yellow-section {
+	background-color: #feca0a;
+	padding: 50px 0;
+}
+
+.white-section {
+	background-color: #ecf0f1;
+	padding: 50px 0;
+}
+
+footer {
+	background-color: #feca0a;
+	padding-top: 50px;
+}
+
+/* ICONS */
+.fa {
+	margin-right: 25px;
+}
+
+.fa:hover {
+	color: #ecf0f1;
+}
+
