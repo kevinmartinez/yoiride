@@ -46,7 +46,7 @@ get_header(); ?>
 			
 			$section = $odd ? "white-section" : "yellow-section";
 			$colfirst = $odd ? "col-md-4 dack-image" : "col-md-8";
-			$colsecond = $odd ? "col-md-8" : "col-md-4";
+			$colsecond = $odd ? "col-md-8" : "col-md-4 dack-image";
 
 		?>
 			
@@ -57,8 +57,8 @@ get_header(); ?>
 					<!--DÄCKARTIKEL MED VÄNSTERSTÄLLD BILD-->
 					<div class="col-md-12">
 						<div class="<? echo $colfirst;?>">
-							<? if ($colfirst == 'col-md-4') { ?>	
-							<?php echo get_the_post_thumbnail(get_the_ID(), 'medium'); ?>
+							<? if ($colfirst == 'col-md-4 dack-image') { ?>	
+							<?php echo get_the_post_thumbnail(get_the_ID(), 'medium', array('class' => 'img-circle') ); ?>
 							<? } else { ?>
 							<h3><? the_title(); ?> </h3>
 							<?the_content(); ?>
@@ -67,7 +67,7 @@ get_header(); ?>
 						</div>
 						<div class="<? echo $colsecond; ?>">
                                                         <? if ($colsecond == 'col-md-4 dack-image') { ?>
-							<?php echo get_the_post_thumbnail(get_the_ID(), 'medium'); ?>
+							<?php echo get_the_post_thumbnail(get_the_ID(), 'medium', array('class' => 'img-circle') ); ?>
                                                         <? } else { ?>
                                                         <h3><? the_title(); ?> </h3>
                                                         <?the_content(); ?>
