@@ -56,7 +56,7 @@ get_header(); ?>
 					<div class="col-md-6">
 						<?php query_posts('cat=5&limit=1'); ?>
 						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<article> <!-- NEWS BOX -->
+						<article class="news-box"> <!-- NEWS BOX -->
 							<h2>NYHETER</h2>
 							<h3><a href="<?php echo get_permalink(); ?>"><? echo the_title(); ?></a></h3>
 							<p><?php echo get_the_post_thumbnail('thumbnail'); ?></p>
