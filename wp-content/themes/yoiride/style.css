@@ -18,6 +18,13 @@ Tags: TwentyFourteen Child Theme
 /* karmint & pixelkojan presenterar yoiride racing */
 
 
+
+/* TEST däck white-section ändring */
+
+.white-section-dack {
+	background-color: #fff;
+}
+
 /* FONTS och TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
