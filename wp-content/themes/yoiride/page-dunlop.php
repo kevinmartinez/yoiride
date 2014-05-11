@@ -44,7 +44,7 @@ get_header(); ?>
 
 			while ( $loop->have_posts() ) : $loop->the_post();
 			
-			$section = $odd ? "white-section-dack" : "yellow-section";
+			$section = $odd ? "white-section-dack" : "white-section-dack";
 			$colfirst = $odd ? "col-md-4" : "col-md-8";
 			$colsecond = $odd ? "col-md-8" : "col-md-4";
 
