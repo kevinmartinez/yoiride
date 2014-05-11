@@ -45,7 +45,7 @@ get_header(); ?>
 			while ( $loop->have_posts() ) : $loop->the_post();
 			
 			$section = $odd ? "white-section" : "yellow-section";
-			$colfirst = $odd ? "col-md-4" : "col-md-8";
+			$colfirst = $odd ? "col-md-4 dack-image" : "col-md-8";
 			$colsecond = $odd ? "col-md-8" : "col-md-4";
 
 		?>
@@ -66,7 +66,7 @@ get_header(); ?>
 							
 						</div>
 						<div class="<? echo $colsecond; ?>">
-                                                        <? if ($colsecond == 'col-md-4') { ?>
+                                                        <? if ($colsecond == 'col-md-4 dack-image') { ?>
 							<?php echo get_the_post_thumbnail(get_the_ID(), 'medium'); ?>
                                                         <? } else { ?>
                                                         <h3><? the_title(); ?> </h3>
