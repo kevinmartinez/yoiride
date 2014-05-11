@@ -49,21 +49,35 @@ get_header(); ?>
 			</div>
 		</section>
 		<!-- NEWS SECTION -->
+
 		<section class="white-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
+						<?php query_posts('cat=5&limit=1'); ?>
+						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						<article> <!-- NEWS BOX -->
 							<h2>NYHETER</h2>
-							<h3>Vårens nyheter är här!</h3>
-							<p>Äntligen så har vi fått in vårens däck på lager! Garanterar fart på vårvägarna.</p>
-							<h4>10-05-2014</h4>
+							<h3><a href="<?php echo get_permalink(); ?>"><? echo the_title(); ?></a></h3>
+							<p><?php echo get_the_post_thumbnail('thumbnail'); ?></p>
+							<p><?php the_content();?></p>
+							<h4><?php the_time( get_option( 'date_format' ) ); ?></h4>
 						</article>
+						<?php endwhile; endif; ?>
 					</div>
+					<?php rewind_posts();?>
+					<?wp_reset_query();?>
 					<div class="col-md-6">
-						<article><!-- RACE RAPPORT BOX -->
-							<h2>RACERAPPORTER</h2>
-						</article>
+                                                <?php query_posts('cat=6&limit=1'); ?>
+                                                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                                                <article> <!-- RACERAPPORTER BOX -->
+                                                        <h2>RACERAPPORT</h2>
+                                                        <h3><a href="<?php echo get_permalink(); ?>"><? echo the_title(); ?></a></h3>
+                                                        <p><?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail'); ?></p>
+                                                        <p><?php the_content();?></p>
+                                                        <h4><? the_time( get_option( 'date_format' ) ); ?></h4>
+                                                </article>
+                                                <?php endwhile; endif; ?>
 					</div>
 				</div>
 			</div>
