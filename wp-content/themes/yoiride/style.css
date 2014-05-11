@@ -18,9 +18,7 @@ Tags: TwentyFourteen Child Theme
 /* karmint & pixelkojan presenterar yoiride racing */
 
 
-/* karmint & pixelkojan presenterar yoiride racing */
-
-/* FONTS */
+/* FONTS och TYPOGRAPHY */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -34,29 +32,51 @@ h2 {
 	font-size: 50px;
 }
 
-hr {
-	    border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-}
-
 p {
 	font-size: 18px;
 }
 
-.news-box {
-	background-color: red;
-	border: 1px solid yellow;
+a {
+	color: #ecf0f1;
 }
 
+a:hover {
+	color: #95a5a6;
+}
+/* =============== */
+
+/* BREADCRUMBS  vet inte om vi ska ha med dessa*/
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: #feca0a;
+	border-radius: 0;
+}
+
+.breadcrumb>li+li:before {
+	color: #000;
+}
+
+.breadcrumb>.active {
+	color: #000;
+}
+/* =============== */
+
+/* KONTAKTFORM */
+.form-control {
+	color: #000;
+}
+/* =============== */
+
+/* NAVIGATION */
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
 }
+/* =============== */
 
+/* FULL WIDTH SECTIONS */
 .yellow-section {
 	background-color: #feca0a;
 	padding: 50px 0;
@@ -71,6 +91,7 @@ footer {
 	background-color: #feca0a;
 	padding-top: 50px;
 }
+/* =============== */
 
 /* ICONS */
 .fa {
@@ -80,4 +101,4 @@ footer {
 .fa:hover {
 	color: #ecf0f1;
 }
-
+/* =============== */
