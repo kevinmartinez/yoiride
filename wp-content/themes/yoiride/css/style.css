@@ -1,28 +1,58 @@
 @charset "utf-8";
 
-/*
-Theme Name: YOIRIDE Twenty Fourteen Child theme 
-Template: twentyfourteen
-Theme URI: 
-Author: YOIRIDE 
-Author URI: http://www.yoiride.se 
-Description: YOIRIDE custom theme. 
-Version: 1.0
-Tags: TwentyFourteen Child Theme
-*/
-
-
-/* @import url("../twentyfourteen/style.css");  
-*/
-
 /* karmint & pixelkojan presenterar yoiride racing */
 
 
+/* COLORS WE USE
 
-/* TEST däck white-section ändring */
+YELLOW = #feca0a
 
-.white-section-dack {
-	background-color: #fff;
+WHITE = #ecf0f1
+
+ */
+
+
+
+
+
+ /*
+
+OBSOBSOBSOBSOBSOBSOB
+OBS
+OBS
+OBS
+OBS
+SOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBS
+
+
+STÃ„DA UPP I KODEN INNAN DU GÃ…R VIDARE
+
+VIKTIGT
+VIKTIGT
+VIKTIGT
+
+VIKTIGT
+VIKTIGT
+VIKTIGT
+
+  */
+
+html, body {
+	height: 100%;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus, a:focus {
+	outline:0px !important;
+	-webkit-appearance:none;
+}
+
+.margin-top {
+	margin-top: 110px;
 }
 
 /* FONTS och TYPOGRAPHY */
@@ -47,8 +77,109 @@ a {
 	color: #ecf0f1;
 }
 
-a:hover {
-	color: #95a5a6;
+.dack-image {
+	border-radius: 50%;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #feca0a;
+    background-color: #222;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #222;
+    color: #feca0a;
+}
+
+/* =============== */
+
+/* NAVBAR */
+.navbar {
+	min-height: 110px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #feca0a;
+}
+
+.navbar-nav > li > a {
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+
+/* BUTTONS IN CASE OF  UNCOMMENT IF USED
+.btn {
+    padding: 10px 40px;
+    font-weight: bold;
+    border: 0px none;
+    border-radius: 3px;
+}
+
+.btn-lg {
+    padding: 15px 65px;
+    font-size: 16px;
+}
+
+.btn {
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.btn-default {
+    text-shadow: none;
+    color: #000;
+    box-shadow: 0px 0px 0px 3px #feca0a inset;
+    background: #feca0a;
+}
+
+BUTTONS  UNCOMMENT IF USED*/
+
+/* =============== */
+
+/* INDEXPAGE */
+.index-tagline {
+	margin-top: 115px;
+	color: #feca0a;
+}
+
+.index-tagline h3{
+	color: #fff;
+}
+
+.index-buttons {
+	margin-top: 15%;
+}
+
+.index-full-cover {
+	background: url("../img/index_full_cover.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 95%;
+	margin-top: 50px;
+}
+/* =============== */
+/* EVENTPAGE testar full cover och tagline hÃ¤r */
+.event-full-cover {
+	background: url("../img/tent_full_cover.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
 }
 /* =============== */
 
@@ -98,14 +229,45 @@ footer {
 	background-color: #feca0a;
 	padding-top: 50px;
 }
+
+footer img {
+	margin-bottom: 80px;
+}
 /* =============== */
+
+adress {
+	color: #000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 
 /* ICONS */
 .fa {
-	margin-right: 25px;
+	margin-right: 5px;
+	margin-left: 30px;
+	color: #000;
 }
 
 .fa:hover {
 	color: #ecf0f1;
 }
 /* =============== */
+
+/* FOOTER BLACK */
+
+.footer-black {
+	background-color: #000;
+}
+
+.footer-black-social i {
+	color: #fff;
+}
+
+.footer-black-social i:hover {
+	color: #feca0a;
+}
+
+.footer-black-adress {
+	color: #fff;
+}
+

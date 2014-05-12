@@ -13,21 +13,7 @@
 get_header(); ?>
 
 <div id="main-content" class="main-content">
-
-		<!-- FULL COVER IMAGE SECTION -->
-		<section class="index-full-cover">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-9 index-tagline">
-						<h1>YOIRIDE RACING</h1>
-						<h3>Vår passion är racing! Vi är ett eventbolag med inriktning på motorsport, speciellt roadracing. Vi har ett racingteam som tävlar på högsta nivå i Sverige.<br><br>
-						Utöver detta är vi även distributör av Dunlop Motorsports racedäck. Vi har valt att bara sälja just racedäcken från Dunlop då vi tycker att det är de absolut bästa däcken och genom att specialisera oss på bara dessa blir vi riktigt bra på det vi gör!</h3>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- TOP SECTION specifik för startsidan -->
+		<!-- TOP SECTION -->
 		<section class="yellow-section">
 			<div class="container">
 				<div class="row">
@@ -58,8 +44,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-		</section><!-- TOP SECTION specifik för startsidan /.SLUT-->
-
+		</section>
 		<!-- NEWS SECTION -->
 
 		<section class="white-section">
@@ -69,7 +54,7 @@ get_header(); ?>
 						<?php query_posts('cat=5&limit=1'); ?>
 						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						<article class="news-box"> <!-- NEWS BOX -->
-							<h2>NYHETER</h2>
+							<h2>ANYHETER</h2>
 							<h3><a href="<?php echo get_permalink(); ?>"><? echo the_title(); ?></a></h3>
 							<p><?php echo get_the_post_thumbnail('thumbnail'); ?></p>
 							<p><?php the_content();?></p>

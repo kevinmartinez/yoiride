@@ -4,9 +4,6 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
- * @package WordPress
- * @subpackage Twenty_Fourteen
- * @since Twenty Fourteen 1.0
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>
@@ -20,9 +17,9 @@
 <!--<![endif]-->
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php wp_title( 'YOIRIDE', true, 'right' ); ?></title>
-	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet'>
 
@@ -37,7 +34,7 @@
 <body <?php body_class(); ?>>
 		<header>
 			<!-- NAVIGATION -->
-			<nav class="navbar navbar-inverse" role="navigation">
+			<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -47,11 +44,11 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html">YOIRIDE</a>
+						<a class="navbar-brand" href="/"><img src="<?php bloginfo('template_url'); ?>/img/nav_bar_logo.png"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li class="dropdown">
+							<li class="dropdown <? echo is_page(array("team","racerapporter","bilder","nyheters","sponsorer")) ? "active" : ""; ?>">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">RACING <b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li><a href="#">TEAM</a></li>
@@ -65,18 +62,18 @@
 									<li><a href="#">SPONSORER</a></li>
 								</ul>
 							</li>
-							<li class="dropdown">
+							<li class="dropdown <? echo is_page(array("dack","dunlop","faq","dackinfo")) ? "active" : ""; ?>">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">DUNLOP <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li><a href="dack.html">DÄCK</a></li>
+									<li><a href="/dunlop">DÄCK</a></li>
 									<li class="divider"></li>
 									<li><a href="#">FAQ</a></li>
 									<li class="divider"></li>
 									<li><a href="#">DÄCKINFO</a></li>
 								</ul>
 							</li>
-							<li><a href="#">EVENT</a></li>
-							<li><a href="#">KONTAKT</a></li>
+							<li class="<? echo is_page("event") ? "active" : ""; ?>"><a href="/event">EVENT</a></li>
+							<li class="<? echo is_page("kontakt") ? "active" : ""; ?>"><a href="/kontakt">KONTAKT</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
