@@ -29,7 +29,9 @@ get_header(); ?>
 					<div class="col-md-5 pull-left">
 						<div>
 							<h3>
-								Shoreditch meh 8-bit, photo booth cliche crucifix kogi semiotics Kickstarter Vice hella freegan American Apparel lo-fi. Viral stumptown paleo, post-ironic pug cred Tonx skateboard trust fund pickled farm-to-table street art.
+						        <?php while (have_posts()) : the_post(); ?>
+                                                                <?php the_content(); ?>
+                                                        <?php endwhile; ?>	
 							</h3>
 						</div>
 					</div>
@@ -58,7 +60,7 @@ get_header(); ?>
 					<div class="col-md-12">
 						<div class="<? echo $colfirst;?>">
 							<? if ($colfirst == 'col-md-4 dack-image') { ?>	
-							<?php echo get_the_post_thumbnail(get_the_ID(), 'medium', array('class' => 'img-circle') ); ?>
+							<?php echo get_the_post_thumbnail(get_the_ID(),  array(350,250) , array('class' => '') ); ?>
 							<? } else { ?>
 							<h3><? the_title(); ?> </h3>
 							<?the_content(); ?>
@@ -67,7 +69,7 @@ get_header(); ?>
 						</div>
 						<div class="<? echo $colsecond; ?>">
                                                         <? if ($colsecond == 'col-md-4 dack-image') { ?>
-							<?php echo get_the_post_thumbnail(get_the_ID(), 'medium', array('class' => 'img-circle') ); ?>
+							<?php echo get_the_post_thumbnail(get_the_ID(),  array(350,250) , array('class' => '') ); ?>
                                                         <? } else { ?>
                                                         <h3><? the_title(); ?> </h3>
                                                         <?the_content(); ?>
