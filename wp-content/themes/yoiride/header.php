@@ -21,7 +21,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php wp_title( 'YOIRIDE', true, 'right' ); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400, 700' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet'>
+
 
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
@@ -48,28 +50,23 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
+							<li class="<? echo is_home() ? "active" : ""; ?>"><a href="/">HEM</a></li>
 							<li class="dropdown <? echo is_page(array("team","racerapporter","bilder","nyheters","sponsorer")) ? "active" : ""; ?>">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">RACING <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">TEAM</a></li>
-									<li class="divider"></li>
-									<li><a href="#">RACERAPPORTER</a></li>
-									<li class="divider"></li>
-									<li><a href="#">BILDER</a></li>
-									<li class="divider"></li>
-									<li><a href="#">NYHETER</a></li>
-									<li class="divider"></li>
-									<li><a href="#">SPONSORER</a></li>
+								<ul class="dropdown-menu sub-menu">
+									<li><a href="/team">TEAM</a></li>
+									<!-- <li><a href="#">RACERAPPORTER</a></li> -->
+									<li><a href="/bildgalleri">BILDER</a></li>
+									<!--<li><a href="#">NYHETER</a></li> -->
+									<li><a href="/sponsorer">SPONSORER</a></li>
 								</ul>
 							</li>
 							<li class="dropdown <? echo is_page(array("dack","dunlop","faq","dackinfo")) ? "active" : ""; ?>">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">DUNLOP <b class="caret"></b></a>
 								<ul class="dropdown-menu">
 									<li><a href="/dunlop">DÄCK</a></li>
-									<li class="divider"></li>
-									<li><a href="#">FAQ</a></li>
-									<li class="divider"></li>
-									<li><a href="#">DÄCKINFO</a></li>
+									<li><a href="/faq">FAQ</a></li>
+									<!--<li><a href="#">DÄCKINFO</a></li> -->
 								</ul>
 							</li>
 							<li class="<? echo is_page("event") ? "active" : ""; ?>"><a href="/event">EVENT</a></li>

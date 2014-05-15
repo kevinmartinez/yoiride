@@ -25,53 +25,69 @@ get_header();
 			</div>
 		</section><!-- INTRO SECTION /.SLUT-->
 
-		<section class="yellow-section">
+		<section class="white-section">
 			<div class="container">
 				<div class="row">
-					<article class="col-sm-8 maincontent">
+					<article class="col-sm-7 contact-content">
 						<form>
 							<div class="row">
 								<div class="col-sm-4">
 									<input class="form-control" type="text" placeholder="Namn">
 								</div>
+							</div>
+							<br>
+							<div class="row">
 								<div class="col-sm-4">
 									<input class="form-control" type="text" placeholder="E-post">
 								</div>
+							</div>
+							<br>
+							<div class="row">
 								<div class="col-sm-4">
 									<input class="form-control" type="text" placeholder="Telefon">
 								</div>
 							</div>
 							<br>
+							<br>
 							<div class="row">
-								<div class="col-sm-12">
-									<textarea placeholder="Skriv ditt meddelande här..." class="form-control" rows="9"></textarea>
+								<div class="col-sm-10">
+									<textarea placeholder="Skriv ditt meddelande här..." class="form-control" rows="12"></textarea>
 								</div>
 							</div>
 							<br>
 							<div class="row">
-								<div class="col-sm-6 text-right pull-right">
+								<div class="col-sm-6 text-left pull-left">
 									<input class="btn btn-action" type="submit" value="Skicka">
 								</div>
 							</div>
 						</form>
 					</article>
-					<aside class="col-sm-4 sidebar sidebar-right">
+					<aside class="col-sm-5 sidebar sidebar-right">
 						<div>
 							<h4>Adress</h4>
 							<address>
-								YOIRIDE Event AB (556850-8351)<br>
+								YOIRIDE EVENT AB (556850-8351)<br>
 								ÖLANDSGATAN 42<br>
-								SE-116 65 STOCKHOLM
+								116 63 Stockholm
 							</address>
-							<h4>Telefon:</h4>
+							<hr>
+							<h4>Nils Horn</h4>
 							<address>
-								0709-346 901	
+								<h5>E-POST:</h5> <a href="mailto:nils@yoiride.se">nils@yoiride.se</a>
+								<h5>MOBIL:</h5><a href="tel:+46709346901">0709-346 901</a>
+							</address>
+							<hr>
+							<h4>Samuel Lindergård</h4>
+							<address>
+								<h5>E-POST:</h5><a href="mailto:samuel@yoiride.se">samuel@yoiride.se</a>
+								<h5>MOBIL:</h5><a href="tel:+46736636314">0736-636 314</a>
 							</address>
 						</div>
 					</aside>
 				</div>
 			</div>
 		</section>
+
 <?
 get_footer();
 ?>

@@ -11,6 +11,7 @@ get_header();
 						</div>
 					</div>
 				</div>
+
 				<div class="row">
 					<div class="col-md-5 pull-left">
 						<div>
@@ -21,7 +22,12 @@ get_header();
 							</h3>
 						</div>
 					</div>
+
+					<div class="col-md-4 pull-right hidden-sm hidden-xs">
+						<img src="<?php bloginfo('template_url'); ?>/img/yoiride_stripes_black_big.png">
+					</div>
 				</div>
+
 			</div><!-- CONTAINER /.SLUT -->
 		</section><!-- INTRO SECTION /.SLUT-->
 
@@ -32,9 +38,9 @@ get_header();
 
 		<!-- TESTAR EN TAGLINE -->
 		<section class="white-section">
-			<div class="container"><!-- CONTAINER 970px -->
+			<div class="container-fluid"><!-- CONTAINER 970px -->
 				<div class="col-md-12">
-					<h1 class="text-center">&quot;KRAFTFULL TAGLINE HÄR&quot;</h1>
+					<h2 class="text-center tagline">&quot;We take your fun seriously.&quot;</h1>
 				</div>
 			</div><!-- CONTAINER /.SLUT -->
 		</section><!-- TAGLINE /.SLUT -->

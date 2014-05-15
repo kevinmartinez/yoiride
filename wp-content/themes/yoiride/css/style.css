@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 /* karmint & pixelkojan presenterar yoiride racing */
 
 
@@ -12,25 +10,13 @@ WHITE = #ecf0f1
  */
 
 
-
-
-
  /*
 
-OBSOBSOBSOBSOBSOBSOB
-OBS
-OBS
-OBS
-OBS
-SOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBSOBS
-
-
-STÃ„DA UPP I KODEN INNAN DU GÃ…R VIDARE
+STÄDA UPP I KODEN INNAN DU GÅR VIDARE KEVIN
 
 VIKTIGT
 VIKTIGT
 VIKTIGT
-
 VIKTIGT
 VIKTIGT
 VIKTIGT
@@ -39,6 +25,11 @@ VIKTIGT
 
 html, body {
 	height: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 textarea:hover,
@@ -52,7 +43,11 @@ input:focus, a:focus {
 }
 
 .margin-top {
-	margin-top: 110px;
+	margin-top: 100px;
+}
+
+.navbar-collapse {
+	max-height: 380px;
 }
 
 /* FONTS och TYPOGRAPHY */
@@ -62,19 +57,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 65px;
+	font-size: 55px;
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 55px;
+}
+
+h3 {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 400;
 }
 
 p {
 	font-size: 18px;
+	font-family: 'Pontano Sans', sans-serif;
 }
 
 a {
-	color: #ecf0f1;
+	color: #000;
+}
+
+a:hover {
+	color: #000;
 }
 
 .dack-image {
@@ -84,23 +90,29 @@ a {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #feca0a;
-    background-color: #222;
+	color: #feca0a;
+	background-color: #222;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #222;
-    color: #feca0a;
+	background-color: #222;
+	color: #feca0a;
 }
 
 /* =============== */
 
+/* GENERAL STYLES */
+h2.tagline {
+	font-size: 30px;
+	font-weight: 400;
+}
+
 /* NAVBAR */
 .navbar {
-	min-height: 110px;
+	min-height: 100px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -112,46 +124,68 @@ a {
 }
 
 .navbar-nav > li > a {
-	padding-top: 50px;
-	padding-bottom: 5px;
+
 }
+
+.navbar-inverse {
+	background-color: #222;
+	border-color: #222;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #feca0a;
+	background-color: #222;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	background-color: #222;
+	color: #feca0a;
+}
+
+.navbar-brand img {
+	max-width: 100%;
+}
+/* =============== */
 
 /* BUTTONS IN CASE OF  UNCOMMENT IF USED
 .btn {
-    padding: 10px 40px;
-    font-weight: bold;
-    border: 0px none;
-    border-radius: 3px;
+	padding: 10px 40px;
+	font-weight: bold;
+	border: 0px none;
+	border-radius: 3px;
 }
 
 .btn-lg {
-    padding: 15px 65px;
-    font-size: 16px;
+	padding: 15px 65px;
+	font-size: 16px;
 }
 
 .btn {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .btn:hover {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .btn-default {
-    text-shadow: none;
-    color: #000;
-    box-shadow: 0px 0px 0px 3px #feca0a inset;
-    background: #feca0a;
+	text-shadow: none;
+	color: #000;
+	box-shadow: 0px 0px 0px 3px #feca0a inset;
+	background: #feca0a;
 }
 
 BUTTONS  UNCOMMENT IF USED*/
 
-/* =============== */
 
 /* INDEXPAGE */
 .index-tagline {
 	margin-top: 115px;
 	color: #feca0a;
+}
+
+.mini-tagline {
+	color: #fff;
 }
 
 .index-tagline h3{
@@ -163,16 +197,75 @@ BUTTONS  UNCOMMENT IF USED*/
 }
 
 .index-full-cover {
-	background: url("../img/index_full_cover.jpg") no-repeat center center;
+	background: url("../img/index_cover.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 95%;
+	height: 80%;
 	margin-top: 50px;
 }
+
+.index-main-section {
+	padding: 100px 0;
+}
+
+.index-bikes {
+	padding: 50px 0;
+	background-color: #000;
+}
+
+.index-big-links  {
+	text-align: center;
+}
+
+.index-big-links p {
+	text-align: justify;
+	padding: 0 15px;
+}
+
+	/* NYHETER OCH RACERAPPORT */
+
+
+.news-box {
+}
+
+.racerapport-box {
+
+}
+
+
+
+
+
+
 /* =============== */
-/* EVENTPAGE testar full cover och tagline hÃ¤r */
+
+/* TEAM */
+.team-main-section img {
+	display: block;
+	max-width: 185px;
+	margin: 0 auto 30px;
+	margin-top: -25px;
+	border-radius: 100%;
+}
+
+.team-profiles {
+	margin-top: 50px;
+}
+
+.profile-info {
+	font-size: 16px;
+}
+
+.team-profiles p {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* =============== */
+
+/* EVENTPAGE testar full cover och tagline här */
 .event-full-cover {
 	background: url("../img/tent_full_cover.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -182,6 +275,24 @@ BUTTONS  UNCOMMENT IF USED*/
 	height: 100%;
 }
 /* =============== */
+
+/* SPONSORS */
+.sponsor-section {
+	padding: 25px 0;
+}
+
+.sponsor-section img {
+	margin-top: 15px;
+}
+
+/* IMAGE GALLERY */
+.image-section {
+	padding: 25px 0;
+}
+
+.image-section img {
+	margin-top: 15px;
+}
 
 /* BREADCRUMBS  vet inte om vi ska ha med dessa*/
 .breadcrumb {
@@ -205,6 +316,7 @@ BUTTONS  UNCOMMENT IF USED*/
 .form-control {
 	color: #000;
 }
+
 /* =============== */
 
 /* NAVIGATION */
@@ -212,39 +324,100 @@ BUTTONS  UNCOMMENT IF USED*/
 	margin-bottom: 0;
 	border-radius: 0;
 }
+
+
+
 /* =============== */
 
 /* FULL WIDTH SECTIONS */
 .yellow-section {
 	background-color: #feca0a;
-	padding: 50px 0;
+	padding: 40px 0;
 }
 
 .white-section {
-	background-color: #ecf0f1;
-	padding: 50px 0;
+	background-color: #fff;
+	padding: 40px 0;
+}
+
+.black-section {
+	background-color: #222;
+	padding: 20px 0;
+}
+
+.black-section h3 {
+	color: #fff;
 }
 
 footer {
 	background-color: #feca0a;
-	padding-top: 50px;
+	padding-top: 60px;
 }
 
 footer img {
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 /* =============== */
 
-adress {
-	color: #000;
-	margin-top: 30px;
-	margin-bottom: 30px;
+/* DÄCK */
+
+
+/* FAQ */
+.panel-default {
+	border-color: #feca0a;
 }
+
+.panel-default>.panel-heading {
+	color: #000;
+	background-color: #fff;
+	border-color: #feca0a;
+}
+
+.panel-heading {
+	padding: 15px 25px;
+}
+
+.faq-cat-content {
+	margin-top: 25px;
+}
+
+.faq-cat-tabs li a {
+	padding: 15px 10px 15px 10px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	color: #777777;
+}
+
+.nav-tabs li a:focus,
+.panel-heading a:focus {
+	outline: none;
+}
+
+.panel-heading a,
+.panel-heading a:hover,
+.panel-heading a:focus {
+	text-decoration: none;
+	color: #000;
+}
+
+.faq-cat-content .panel-heading:hover {
+	background-color: #efefef;
+}
+
+.active-faq {
+	border-left: 5px solid #888888;
+}
+
+.panel-faq .panel-heading .panel-title span {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+/* =============== */
 
 /* ICONS */
 .fa {
-	margin-right: 5px;
-	margin-left: 30px;
+	padding: 0 30px;
 	color: #000;
 }
 
@@ -255,8 +428,14 @@ adress {
 
 /* FOOTER BLACK */
 
+adress {
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
 .footer-black {
-	background-color: #000;
+	background-color: #222;
 }
 
 .footer-black-social i {
@@ -271,3 +450,137 @@ adress {
 	color: #fff;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 480px) {
+		.index-full-cover {
+		background: #feca0a;
+		height: auto;
+		margin-top: 2px;
+		padding: 25px 0;
+	}
+
+	h1 {
+		color: #000;
+	}
+
+	.index-tagline {
+		margin-top: 80px;
+	}
+
+	.index-tagline h3 {
+		color: #000;
+		font-weight: 400;
+	}
+
+}
+
+
+/* phones and up to iPad sizes */
+@media (max-width: 767px) {
+	.margin-top {
+		margin-top: 25px;
+	}
+
+	.navbar-brand img {
+		max-width: 40%;
+		height: auto;
+		float: left;
+		margin-left: -12px;
+	}
+	.navbar {
+		min-height: 50px;
+	}
+
+	.navbar {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff;
+	}
+
+	.team-profiles p {
+		font-size: 14px;
+	}
+
+	.white-section {
+		padding: 25px 0;
+	}
+
+	.yellow-section {
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
+
+	.black-section {
+		padding: 5px 0;
+	}
+
+	.black-section h3 {
+		text-align: center;
+	}
+
+	h2.tagline {
+		font-size: 18px;
+	}
+
+	h5.profile-info{
+		text-align: center;
+	}
+
+	/* FONTS och TYPOGRAPHY */
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	h4.panel-title {
+		font-size: 14px;
+		font-weight: 400;
+	}
+}
+
+/* iPads and above including Desktopz */
+@media (min-width: 767px) {
+	.navbar-nav > li > a {
+		padding-top: 50px;
+	}
+
+	.dropdown-menu li:hover .sub-menu {
+		visibility: visible;
+	}
+
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
