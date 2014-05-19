@@ -85,6 +85,9 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', true);
 
+
+define('WP_DEFAULT_THEME', 'yoiride');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
