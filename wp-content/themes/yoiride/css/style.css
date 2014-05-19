@@ -1,30 +1,129 @@
 /* karmint & pixelkojan presenterar yoiride racing */
 
 
-/* COLORS WE USE
+/*
 
-YELLOW = #feca0a
+==========Yoiride colors we use
 
-WHITE = #ecf0f1
+Yellow = #feca0a
 
- */
+White = #ecf0f1
+
+==========VIKTIGT==========
+
+OBS  DISKUTERA BREADCRUMBS MED MACKAN LINE 263
+
+*/
 
 
- /*
 
-STÄDA UPP I KODEN INNAN DU GÅR VIDARE KEVIN
 
-VIKTIGT
-VIKTIGT
-VIKTIGT
-VIKTIGT
-VIKTIGT
-VIKTIGT
 
-  */
+/* CUSTOMIZE THE CAROUSEL
+	-------------------------------------------------- */
 
+	/* Carousel base class */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 400px;
+	background-color:#555;
+}
+.carousel img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 400px;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.marketing h2 {
+	font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+margin-right: 40px;
+}
+.featurette-image.pull-right {
+margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General styles
+================================= */
 html, body {
 	height: 100%;
+	font-size: 1.125em
 }
 
 img {
@@ -50,13 +149,32 @@ input:focus, a:focus {
 	max-height: 380px;
 }
 
-/* FONTS och TYPOGRAPHY */
+h2.tagline {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+blockquote {
+	padding: 0;
+	margin: 0;
+	border-left: none;
+}
+
+/* Fonts & typography
+================================= */
+@font-face {
+	font-family: GothamBold;
+	src: url("../fonts/GothamBold.otf") format("opentype");
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-family: GothamBold;
 }
 
 h1 {
+	font-family: GothamBold;
 	font-size: 55px;
 }
 
@@ -68,63 +186,54 @@ h3 {
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 19px;
 	font-weight: 400;
+	line-height: 1.5em;
 }
 
 p {
 	font-size: 18px;
 	font-family: 'Pontano Sans', sans-serif;
+	line-height: 1.5em;
 }
 
 a {
 	color: #000;
+	text-decoration: none;
+	transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-webkit-transition: color .3s ease-in-out;
 }
 
 a:hover {
 	color: #000;
+	text-decoration: none;
 }
 
-.dack-image {
-	border-radius: 50%;
-	margin-top: 100px;
-	margin-left: 50px;
+a:after {
+	text-decoration: none;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #feca0a;
-	background-color: #222;
+a:focus {
+	text-decoration: none;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-	background-color: #222;
-	color: #feca0a;
-}
-
-/* =============== */
-
-/* GENERAL STYLES */
-h2.tagline {
-	font-size: 30px;
-	font-weight: 400;
-}
-
-/* NAVBAR */
+/* Navigation
+================================= */
 .navbar {
 	min-height: 100px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'GothamBold', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
+	margin-bottom: 0;
+	border-radius: 0;
 }
 
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
+	letter-spacing: 0.0625em;;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
 	color: #feca0a;
-}
-
-.navbar-nav > li > a {
-
 }
 
 .navbar-inverse {
@@ -143,42 +252,11 @@ h2.tagline {
 }
 
 .navbar-brand img {
-	max-width: 100%;
-}
-/* =============== */
-
-/* BUTTONS IN CASE OF  UNCOMMENT IF USED
-.btn {
-	padding: 10px 40px;
-	font-weight: bold;
-	border: 0px none;
-	border-radius: 3px;
+	max-width: 80%;
 }
 
-.btn-lg {
-	padding: 15px 65px;
-	font-size: 16px;
-}
-
-.btn {
-	margin-bottom: 10px;
-}
-
-.btn:hover {
-	background-color: #fff;
-}
-
-.btn-default {
-	text-shadow: none;
-	color: #000;
-	box-shadow: 0px 0px 0px 3px #feca0a inset;
-	background: #feca0a;
-}
-
-BUTTONS  UNCOMMENT IF USED*/
-
-
-/* INDEXPAGE */
+/* Index/start page
+================================= */
 .index-tagline {
 	margin-top: 115px;
 	color: #feca0a;
@@ -220,13 +298,12 @@ BUTTONS  UNCOMMENT IF USED*/
 }
 
 .index-big-links p {
-	text-align: justify;
 	padding: 0 15px;
 }
 
-	/* NYHETER OCH RACERAPPORT */
-
-
+	/*
+	News & Race report boxes
+	*/
 .news-box {
 }
 
@@ -234,14 +311,8 @@ BUTTONS  UNCOMMENT IF USED*/
 
 }
 
-
-
-
-
-
-/* =============== */
-
-/* TEAM */
+/* Team
+================================= */
 .team-main-section img {
 	display: block;
 	max-width: 185px;
@@ -254,6 +325,12 @@ BUTTONS  UNCOMMENT IF USED*/
 	margin-top: 50px;
 }
 
+.team-profiles blockquote {
+	color: #000;
+	padding-left: 100px;
+	text-align: right;
+}
+
 .profile-info {
 	font-size: 16px;
 }
@@ -261,11 +338,11 @@ BUTTONS  UNCOMMENT IF USED*/
 .team-profiles p {
 	font-weight: 400;
 	font-size: 20px;
+	line-height: 1.5em;
 }
 
-/* =============== */
-
-/* EVENTPAGE testar full cover och tagline här */
+/* Event
+================================= */
 .event-full-cover {
 	background: url("../img/tent_full_cover.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -274,9 +351,9 @@ BUTTONS  UNCOMMENT IF USED*/
 	background-size: cover;
 	height: 100%;
 }
-/* =============== */
 
-/* SPONSORS */
+/* Sponsors
+================================= */
 .sponsor-section {
 	padding: 25px 0;
 }
@@ -285,16 +362,49 @@ BUTTONS  UNCOMMENT IF USED*/
 	margin-top: 15px;
 }
 
-/* IMAGE GALLERY */
+/* Image gallery
+================================= */
 .image-section {
 	padding: 25px 0;
 }
 
 .image-section img {
 	margin-top: 15px;
+	border-top: 5px solid #feca0a;
 }
 
-/* BREADCRUMBS  vet inte om vi ska ha med dessa*/
+	/*
+	Gallery sections
+	*/
+	.gallery-background {
+		background-color: #000;
+		padding: 50px 0;
+	}
+
+	.gallery-section img {
+		padding: 25px 0;
+		margin: 0 auto;
+		border: none;
+	}
+
+	.caption {
+		background-color: black;
+		max-width: 300px;
+		margin: 0 auto;
+		text-align: center;
+		color: #feca0a;
+		padding: 2px 0;
+		border-top: 1px solid #feca0a;
+	}
+
+	.caption h3 {
+		font-family: GothamBold;
+		text-decoration: none;
+	}
+
+
+/* BREADCRUMBS OBSOBSOBS DISKUTERA
+================================= */
 .breadcrumb {
 	padding: 8px 15px;
 	margin-bottom: 20px;
@@ -310,26 +420,15 @@ BUTTONS  UNCOMMENT IF USED*/
 .breadcrumb>.active {
 	color: #000;
 }
-/* =============== */
 
-/* KONTAKTFORM */
+/* Contact form
+================================= */
 .form-control {
 	color: #000;
 }
 
-/* =============== */
-
-/* NAVIGATION */
-.navbar {
-	margin-bottom: 0;
-	border-radius: 0;
-}
-
-
-
-/* =============== */
-
-/* FULL WIDTH SECTIONS */
+/* Full width sections
+================================= */
 .yellow-section {
 	background-color: #feca0a;
 	padding: 40px 0;
@@ -349,20 +448,12 @@ BUTTONS  UNCOMMENT IF USED*/
 	color: #fff;
 }
 
-footer {
-	background-color: #feca0a;
-	padding-top: 60px;
-}
-
-footer img {
-	margin-bottom: 40px;
-}
-/* =============== */
-
-/* DÄCK */
+/* Dunlop
+================================= */
 
 
-/* FAQ */
+/* FAQ
+================================= */
 .panel-default {
 	border-color: #feca0a;
 }
@@ -413,58 +504,58 @@ footer img {
 	font-weight: normal;
 }
 
-/* =============== */
 
-/* ICONS */
+/* Icons
+================================= */
 .fa {
-	padding: 0 30px;
-	color: #000;
+	padding: 0 20px;
 }
 
-.fa:hover {
-	color: #ecf0f1;
+/* Footer
+================================= */
+footer {
+	padding-top: 65px;
+	background-color: #222;
+	color: #fff;
 }
-/* =============== */
 
-/* FOOTER BLACK */
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #feca0a;
+	transition: color .4s ease-in-out;
+	-moz-transition: color .4s ease-in-out;
+	-webkit-transition: color .4s ease-in-out;
+	text-decoration: none;
+}
+
+footer h6 {
+	font-weight: 400;
+}
 
 adress {
-	color: #000;
-	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 40px;
 }
 
-.footer-black {
-	background-color: #222;
-}
+/* Media Queries
+=================================
+=================================
+=================================
+=================================
+=================================
+=================================
+=================================
+=================================
+=================================
+================================= */
 
-.footer-black-social i {
-	color: #fff;
-}
-
-.footer-black-social i:hover {
-	color: #feca0a;
-}
-
-.footer-black-adress {
-	color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* MEDIA QUERIES */
+/* Phones
+================================= */
 @media (max-width: 480px) {
-		.index-full-cover {
+	.index-full-cover {
 		background: #feca0a;
 		height: auto;
 		margin-top: 2px;
@@ -484,10 +575,15 @@ adress {
 		font-weight: 400;
 	}
 
+	.mini-tagline {
+		color: #000;
+		text-align: justify;
+	}
 }
 
 
-/* phones and up to iPad sizes */
+/* iPad
+================================= */
 @media (max-width: 767px) {
 	.margin-top {
 		margin-top: 25px;
@@ -499,12 +595,12 @@ adress {
 		float: left;
 		margin-left: -12px;
 	}
+
 	.navbar {
 		min-height: 50px;
 	}
 
 	.navbar {
-		font-family: 'Montserrat', sans-serif;
 		font-weight: 400;
 		font-size: 16px;
 		text-align: center;
@@ -543,11 +639,9 @@ adress {
 		text-align: center;
 	}
 
-	/* FONTS och TYPOGRAPHY */
-	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Montserrat', sans-serif;
-	}
-
+	/*
+	Fonts & typography
+	*/
 	h1 {
 		font-size: 30px;
 	}
@@ -570,7 +664,8 @@ adress {
 	}
 }
 
-/* iPads and above including Desktopz */
+/* Desktop
+================================= */
 @media (min-width: 767px) {
 	.navbar-nav > li > a {
 		padding-top: 50px;

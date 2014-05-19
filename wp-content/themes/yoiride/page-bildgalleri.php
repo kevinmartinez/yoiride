@@ -7,7 +7,7 @@ get_header();
 				<div class="row">
 					<div class="col-md-4 pull-left">
 						<div>
-							<h2>SPONSORER</h2>
+							<h2>BILDGALLERI</h2>
 						</div>
 					</div>
 				</div>
@@ -27,47 +27,81 @@ get_header();
 			</div><!-- CONTAINER /.SLUT -->
 		</section>
 
+
+		<!-- IMAGE GALLERY == THUMBNAILS 300x250 -->
 		<section class="white-section">
-			<div class="container"><!-- CONTAINER 970px -->
-				<div class="row">
-					<section class="image-section">
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-					</section>
-				</div>
-				<div class="row">
-					<section class="image-section">
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-					</section>
-				</div>
-				<div class="row">
-					<section class="image-section">
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-						<div class="col-sm-4 col-xs-12">
-							<a href="#"><img src="http://placehold.it/300x250&text=BILDTEST"></a>
-						</div>
-					</section>
-				</div>
+			<div class="container">
+<?
+
+	$args = array(
+    		'post_type'=> 'post',
+    		'post_status' => 'publish',
+    		'order' => 'DESC',
+    		'tax_query' => array(
+        		array(
+            			'taxonomy' => 'post_format',
+           	 		'field' => 'slug',
+            			'terms' => array( 'post-format-gallery' )
+        		)
+    		)
+	);
+	$count = 0;
+	$start = 0;
+	
+	$query = new WP_query($args);
+		while($query->have_posts()) : $query->the_post();
+
+		$closed = 0;
+
+		if($start == 0) { 
+			echo '<!-- IMAGE ROW -->';
+			echo '<div class="row">';
+			echo '<section class="image-section text-center">';
+			$start = 1;
+		} 
+		if ( has_post_thumbnail() ) {
+		?>
+		
+			<div class="col-sm-4 col-xs-12">
+				<a href="<?php echo get_permalink($post->ID); ?>"> <? the_post_thumbnail(array(300,250));?>
+					<div class="caption">
+						<h3><?the_title();?></h3>
+					</div>
+				</a>
+			</div>
+
+		<? }
+
+		if($count == 2) { 
+			echo '</section>';
+			echo '</div><!-- /.SLUT -->';
+			$count = 0; $start = 0; $closed = 1; 
+		}
+
+		$count += 1;
+
+/*
+    $attachments = get_children( array(
+        'post_parent' => get_the_ID(),
+        'post_status' => 'inherit',
+        'post_type' => 'attachment',
+        'post_mime_type' => 'image',
+        'order' => 'ASC',
+        'orderby' => 'menu_order ID',
+        'numberposts' => 1)
+    );
+	print_r($attachments);die;
+    foreach ( $attachments as $thumb_id => $attachment )
+        echo wp_get_attachment_image($thumb_id, $size); // whatever size you want
+die;
+*/
+		endwhile;
+		if ($closed == 0) {
+                       echo '</section>';
+                        echo '</div><!-- /.SLUT -->';	
+		} 
+
+?>
 			</div><!-- CONTAINER /.SLUT -->
 		</section>
 

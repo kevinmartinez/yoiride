@@ -19,7 +19,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/favicon.png">
 	<title><?php wp_title( 'YOIRIDE', true, 'right' ); ?></title>
+	
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400, 700' rel='stylesheet'>
 	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet'>

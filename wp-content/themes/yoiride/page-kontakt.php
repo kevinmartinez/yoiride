@@ -1,6 +1,75 @@
-<?
+<?php
+
+    $response; 
+
+    function my_contact_form_generate_response($type, $message){
+
+        global $response;
+
+        if($type == "success") 
+		$response = "<div class='success'>{$message}</div>";
+        else $response = "<div class='error'>{$message}</div>";
+    }
+
+if(isset($_POST['submitted'])) {
+
+	//response messages
+	$not_human       = "";
+	$missing_content = "Innehåll saknas.";
+	$email_invalid   = "Felaktig e-mail.";
+	$message_unsent  = "Meddelandet skickades inte, testa igen!";
+	$message_sent    = "Tack för din förfrågan, vi återkommer till dig!.";
+ 
+	//user posted variables
+	$name = isset($_POST['yoiride_name']) ? $_POST['yoiride_name'] : NULL;
+	$email = isset($_POST['yoiride_email']) ? $_POST['yoiride_email'] : NULL; ;
+	$message = isset($_POST['yoiride_message']) ? $_POST['yoiride_message'] : NULL;
+	$human = isset($_POST['human']) ? $_POST['human'] : NULL;
+	$phone = isset($_POST['yoiride_phone']) ? $_POST['yoiride_phone'] : NULL;
+	$human = 2;
+	
+	//php mailer variables
+	$to = "marcus@karmint.com";
+	$subject = "Förfrågan yoiride.se";
+	$headers = "From: formular@yoiride.se\r\n" .
+  	"Reply-To: formular@yoiride.se\r\n";
+
+	if(!$human == 0){
+  		if($human != 2) my_contact_form_generate_response("error", $not_human); //not human!
+  		else {
+			//validate email
+			if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  				my_contact_form_generate_response("error", $email_invalid);
+			} else {
+
+				//validate presence of name and message
+				if(empty($name) || empty($message)){
+  					my_contact_form_generate_response("error", $missing_content);
+				}
+				else {
+
+					try {
+						$message .= "\n\nSkickat av: ".$email."\r\nNamn: ".$name."\r\nTfn:".$phone."\r\n"; 
+    						$sent = @wp_mail( $to, $subject, strip_tags($message), $headers );
+					} catch (Exception $e) {
+    						error_log('oops: ' . $e->getMessage()); // this line is for testing only!
+					}
+
+					#$sent = wp_mail($to, $subject, strip_tags($message), $headers);
+	
+					if($sent) 
+						my_contact_form_generate_response("success", $message_sent); //message sent!
+					else 
+						my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
+				}
+			}
+  		}
+	}
+	else if ($_POST['submitted']) my_contact_form_generate_response("error", $missing_content);
+}
+
 get_header();
-?>	
+?>
 		<!-- INTRO SECTION kommer vara återkommande i flera undersidor -->
 		<section class="yellow-section margin-top">
 			<div class="container">
@@ -28,30 +97,35 @@ get_header();
 		<section class="white-section">
 			<div class="container">
 				<div class="row">
+					<?if(isset($response)) {
+						if($response != "")
+							echo $response;
+					}
+					?>
 					<article class="col-sm-7 contact-content">
-						<form>
+						<form action="<?php the_permalink(); ?>" method="post">
 							<div class="row">
 								<div class="col-sm-4">
-									<input class="form-control" type="text" placeholder="Namn">
+									<input class="form-control" name="yoiride_name" type="text" placeholder="Namn">
 								</div>
 							</div>
 							<br>
 							<div class="row">
 								<div class="col-sm-4">
-									<input class="form-control" type="text" placeholder="E-post">
+									<input class="form-control" name="yoiride_email" type="text" placeholder="E-post">
 								</div>
 							</div>
 							<br>
 							<div class="row">
 								<div class="col-sm-4">
-									<input class="form-control" type="text" placeholder="Telefon">
+									<input class="form-control" name="yoiride_phone" type="text" placeholder="Telefon">
 								</div>
 							</div>
 							<br>
 							<br>
 							<div class="row">
 								<div class="col-sm-10">
-									<textarea placeholder="Skriv ditt meddelande här..." class="form-control" rows="12"></textarea>
+									<textarea placeholder="Skriv ditt meddelande här..." name="yoiride_message" class="form-control" rows="12"></textarea>
 								</div>
 							</div>
 							<br>
@@ -60,6 +134,7 @@ get_header();
 									<input class="btn btn-action" type="submit" value="Skicka">
 								</div>
 							</div>
+							<input type="hidden" name="submitted" value="1">
 						</form>
 					</article>
 					<aside class="col-sm-5 sidebar sidebar-right">

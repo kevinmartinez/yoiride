@@ -10,7 +10,24 @@
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
  */
-get_header(); ?>
+get_header(); 
+
+if (!is_front_page()) {
+
+                              while ( have_posts() ) : the_post();
+
+                                        /*
+                                         * Include the post format-specific template for the content. If you want to
+                                         * use this in a child theme, then include a file called called content-___.php
+                                         * (where ___ is the post format) and that will be used instead.
+                                         */
+                                        get_template_part( 'content', get_post_format() );
+
+                                endwhile;
+
+} else {
+?>
+
 
 		<!-- FULL COVER IMAGE SECTION -->
 		<section class="index-full-cover">
@@ -67,7 +84,7 @@ get_header(); ?>
 							<h3><? echo the_title(); ?></h3>	
 							<h6><?php the_time( get_option( 'date_format' ) ); ?></h6>
 							<article>
-								<p><?php the_content();?></p>
+								<p><?php the_excerpt();?></p>
 							</article>
 						</div>
 					</div>
@@ -78,5 +95,7 @@ get_header(); ?>
 </div><!-- #main-content -->
 
 <?php
+}
+
 //get_sidebar();
 get_footer();

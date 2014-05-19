@@ -7,6 +7,19 @@
  * @package yoiride
  */
 
+function wp_get_attachment( $attachment_id ) {
+
+	$attachment = get_post( $attachment_id );
+	return array(
+		'alt' => get_post_meta( $attachment->ID, '_wp_attachment_image_alt', true ),
+		'caption' => $attachment->post_excerpt,
+		'description' => $attachment->post_content,
+		'href' => get_permalink( $attachment->ID ),
+		'src' => $attachment->guid,
+		'title' => $attachment->post_title
+	);
+}
+
 function add_require_scripts_files() {
 
     wp_register_style('bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.min.css');
@@ -53,6 +66,8 @@ function addthemesupport() {
 }
 
 add_action( 'after_setup_theme', 'addthemesupport');
+
+add_theme_support( 'post-formats', array( 'gallery') );
 
 
 /* Removes the admin bar for logged in users */
@@ -115,5 +130,11 @@ function tire_save_price_meta($post_id, $post) {
 }
 
 add_action('save_post', 'tire_save_price_meta', 1, 2); // save the custom fields
+
+#remove_action('do_feed_rdf', 'do_feed_rdf', 10, 1);
+#remove_action('do_feed_rss', 'do_feed_rss', 10, 1);
+#remove_action('do_feed_rss2', 'do_feed_rss2', 10, 1);
+#remove_action('do_feed_atom', 'do_feed_atom', 10, 1);
+
 
 ?>
