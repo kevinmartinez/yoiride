@@ -7,8 +7,8 @@
         global $response;
 
         if($type == "success") 
-		$response = "<div class='success'>{$message}</div>";
-        else $response = "<div class='error'>{$message}</div>";
+		$response = "<button type=\"button\" class=\"btn btn-block disabled btn-success\">$message</button>";
+        else $response = "<button type=\"button\" class=\"btn btn-block disabled btn-danger\">$message</button>";
     }
 
 if(isset($_POST['submitted'])) {
@@ -17,8 +17,8 @@ if(isset($_POST['submitted'])) {
 	$not_human       = "";
 	$missing_content = "Innehåll saknas.";
 	$email_invalid   = "Felaktig e-mail.";
-	$message_unsent  = "Meddelandet skickades inte, testa igen!";
-	$message_sent    = "Tack för din förfrågan, vi återkommer till dig!.";
+	$message_unsent  = "Meddelandet kunde inte skickas, prova igen!";
+	$message_sent    = "Tack för ditt mail, vi återkommer till dig!";
  
 	//user posted variables
 	$name = isset($_POST['yoiride_name']) ? $_POST['yoiride_name'] : NULL;
@@ -26,10 +26,9 @@ if(isset($_POST['submitted'])) {
 	$message = isset($_POST['yoiride_message']) ? $_POST['yoiride_message'] : NULL;
 	$human = isset($_POST['human']) ? $_POST['human'] : NULL;
 	$phone = isset($_POST['yoiride_phone']) ? $_POST['yoiride_phone'] : NULL;
-	$human = 2;
 	
 	//php mailer variables
-	$to = "marcus@karmint.com";
+	$to = "kontakt@yoiride.se";
 	$subject = "Förfrågan yoiride.se";
 	$headers = "From: formular@yoiride.se\r\n" .
   	"Reply-To: formular@yoiride.se\r\n";
@@ -97,11 +96,6 @@ get_header();
 		<section class="white-section">
 			<div class="container">
 				<div class="row">
-					<?if(isset($response)) {
-						if($response != "")
-							echo $response;
-					}
-					?>
 					<article class="col-sm-7 contact-content">
 						<form action="<?php the_permalink(); ?>" method="post">
 							<div class="row">
@@ -130,10 +124,27 @@ get_header();
 							</div>
 							<br>
 							<div class="row">
+								<div class="col-md-2 col-sm-4"><label>Vad blir 1+1</label></div>
+								<div class="col-md-4 col-sm-6">
+									<input class="form-control sum" name="human" value="0" type="text" placeholder="Summa">
+								</div>
+							</div>
+							<br>
+							<div class="row">
 								<div class="col-sm-6 text-left pull-left">
 									<input class="btn btn-action" type="submit" value="Skicka">
 								</div>
 							</div>
+							<br>
+
+                                                        <? if (isset($response)) if ($response != ''){ ?>
+                                                        <div class="row">
+                                                                <div class="col-md-8">
+                                                                        <? echo $response; ?>
+                                                                </div>
+                                                        </div>
+                                                        <? } ?>
+							
 							<input type="hidden" name="submitted" value="1">
 						</form>
 					</article>
