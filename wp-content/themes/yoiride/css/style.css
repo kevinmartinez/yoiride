@@ -155,7 +155,7 @@ h2.tagline {
 }
 
 
-blockquote {
+.team-quote {
 	font-family: 'Pontano Sans', sans-serif;
 	background: #yellow;
 	border-left: 10px solid #000;
@@ -163,7 +163,7 @@ blockquote {
 	padding: 0.5em 10px;
 	quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote:before {
+.team-quote:before {
 	color: #000;
 	content: open-quote;
 	font-size: 4em;
@@ -171,8 +171,15 @@ blockquote:before {
 	margin-right: 0.25em;
 	vertical-align: -0.4em;
 }
-blockquote p {
+.team-quote p {
 	display: inline;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    border-left: 0;
 }
 
 /* Fonts & typography
@@ -382,24 +389,31 @@ a:focus {
 	border-top: 5px solid #feca0a;
 }
 
-	.gallery-top-caption {
-		background-color: white;
-		max-width: 300px;
-		margin: 0 auto;
-		text-align: center;
-		color: #feca0a;
-		padding: 2px 0;
-		border-top: 1px solid #feca0a;
-	}
+
 
 	.gallery-bottom-caption {
-		background-color: white;
 		max-width: 100%;
 		margin: 0 auto;
-		text-align: center;
-		color: #feca0a;
-		padding: 2px 0;
-		border-top: 1px solid #feca0a;
+		margin-top: -25px;
+		text-align: left;
+		color: #fff;
+		padding: 10px 0;
+		font-family: 'Pontano Sans', sans-serif;
+		font-weight: normal;
+		margin-bottom: 100px;
+	}
+
+		.gallery-bottom-caption p {
+			padding-left: 20px;
+			font-size: 16px;
+			width: 80%;
+				}
+
+	.gallery-author {
+		float: right;
+		color: white;
+		font-size: 16px;
+		font-weight: lighter;
 	}
 
 	.caption h3 {
@@ -646,12 +660,40 @@ adress {
 		color: #000;
 		text-align: justify;
 	}
+
+			.gallery-bottom-caption {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-top: -25px;
+		text-align: left;
+		color: #fff;
+		padding: 10px 0;
+		font-family: 'Pontano Sans', sans-serif;
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
+
+		.gallery-bottom-caption p {
+			padding-left: 20px;
+			font-size: 16px;
+			width: 100%;
+			margin-top: 5px;
+				}
+
+	.gallery-author {
+		float: none;
+		color: white;
+		font-size: 16px;
+		font-weight: lighter;
+
+	}
+
 }
 
 
 /* iPad
 ================================= */
-@media (max-width: 767px) {
+@media (min-width: 481px ) and (max-width: 767px) {
 	.margin-top {
 		margin-top: 25px;
 	}
@@ -708,6 +750,31 @@ adress {
 
 	.btn {
 		min-width: 100%;
+	}
+
+		.gallery-bottom-caption {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-top: -25px;
+		text-align: left;
+		color: #fff;
+		padding: 10px 0;
+		font-family: 'Pontano Sans', sans-serif;
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+
+		.gallery-bottom-caption p {
+			padding-left: 20px;
+			font-size: 16px;
+			width: 60%;
+				}
+
+	.gallery-author {
+		float: right;
+		color: white;
+		font-size: 16px;
+		font-weight: lighter;
 	}
 
 
