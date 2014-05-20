@@ -55,20 +55,20 @@ get_header();
 										<div id="faq-cat-1-sub-1" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Att ha rätt däckryck är otroligt viktigt för att du ska få rätt grepp samt för att däcken skall få ett fint slitage och hålla länge. Vad som är rätt däcktryck varierar mellan de olika märkena på marknaden och ofta även mellan olika modeller av samma märke.
+												Att ha rätt däcktryck är otroligt viktigt för att du ska få rätt grepp samt för att däcken skall få ett fint slitage och hålla länge. Vad som är rätt däcktryck varierar mellan olika märken på marknaden och ofta även mellan olika modeller av samma märke.
 												</p>
-												<p>Det tryck som spelar roll är det som du har i däcket när du är ute på banan. Vad det har för kalltryck eller vad det har för tryck när det är uppvärmt med värmare spelar egentligen ingen roll, även om det kan vara bra riktmärken. För att få rätt tryck krävs det att man mäter trycket direkt efter att man kommer in i depån, så snart som möjligt efter att hojen stannat. Genom att göra detta kan man enkelt utläsa hur mkt för mycket/lite luft man hade i när man mätte trycket med värmarna på.
+												<p>Det tryck som spelar roll är det som du har i däcket när du är ute på banan. Vad det har för kalltryck eller vad det har för tryck när det är uppvärmt med värmare spelar egentligen ingen roll, även om det kan vara bra riktmärken. För att kontrollera däcktrycket krävs det att man mäter direkt efter att man kommer in i depån, så snart som möjligt efter att hojen stannat. Genom att göra detta kan man enkelt utläsa hur mkt för mycket/lite luft man hade i när man mätte trycket med värmarna på.
 												</p>
 												<p>Hur mycket däcktrycket ändrar sig på banan beror på en mängd olika faktorer såsom asfaltstemp, gummiblandning men framförallt beror det på tempot.
 												</p>
-												<p>För våra racedäck till 600 och 1000 gäller följande riktlinjer
+												<p>För våra racedäck till 600cc och 1000cc gäller följande riktlinjer
 												</p>
 												<p><em>Bak</em><p>
-												<p>Tryck efter uppvärmning i värmare: 1,2-1,4 bar</p>
-												<p>Direkt efter körning: 1,3 bar</p>
+												<p>Tryck efter uppvärmning i värmare: <span class="">1,2-1,4 bar</span></p>
+												<p>Direkt efter körning: <span class="">1,3 bar</span></p>
 												<p><em>Fram</em></p>
-												<p>Tryck efter uppvärmning i värmare: 2,2-2,4 bar</p>
-												<p>Direkt efter körning: 2,3 bar</p>
+												<p>Tryck efter uppvärmning i värmare: <span class="">2,2-2,4 bar</span></p>
+												<p>Direkt efter körning: <span class="">2,3 bar</span></p>
 											</div>
 										</div>
 									</div><!-- FAQ SECTION /.SLUT-->
@@ -88,8 +88,8 @@ get_header();
 												<p>
 												Vi får ofta höra detta och vi som jobbar med dessa nummer varje dag kan inte annat än att hålla med om att det är lite krångligt. De flesta konkurrenter har enklare beteckningar som 0,1,2 och 3 för att beskriva hårdheten i däcket. Nackdelen med detta är att du inte vet vilken gummiblandning du då kör på. En 1a från 2014 kan vara ett helt annat däck än en 1a från 2013. Ibland byter de gummiblandningar mitt under pågående säsong och enda sättet att få veta vilken gummiblandning du kör på är att ta serienumret av däcket och sedan skriva till dem och hoppas på svar.
 												</p>
-												<p>Så visst, det är lite krångligt att hålla rätt på numren men det är värt det för Dunlops racedäck vet du exakt vilken gummiblandning du kör på,<strong>alltid</strong>. Ändrar Dunlop något med sitt däck får det alltid en ny beteckning och du kan enkelt få veta vad skillnaden är.</p>
-												<p>Och det är faktiskt inte så många att hålla reda på, du kör nog max på 3 tre olika bakdäck och tre olika framdäck. Köper du däcken av oss kan du också helt låta bli att lära dig dessa och istället beställa ett däck som är ”medium”.</p>
+												<p>Så visst, det är lite krångligt att hålla rätt på numren men det är värt det för Dunlops racedäck vet du exakt vilken gummiblandning du kör på, <strong>alltid</strong>. Ändrar Dunlop något med sitt däck får det alltid en ny beteckning och du kan enkelt få veta vad skillnaden är. </p>
+												<p>Och det är faktiskt inte så många att hålla reda på, du kör nog max på 3 tre olika gummiblandningar bak och tre olika gummiblandningar fram. Köper du däcken av oss kan du också helt låta bli att lära dig dessa och istället beställa ett däck som är ”medium”.</p>
 											</div>
 										</div>
 									</div><!-- FAQ SECTION /.SLUT-->
@@ -109,7 +109,7 @@ get_header();
 												<p>
 												Detta är två av de absolut vanligaste frågorna vi får i depån. De är också två av de svåraste frågorna att svara på. Många tror att det bara är hur mycket gummi som är kvar på däcket som bestämmer om ”det är slut” eller inte. Men det är väldigt många faktorer som spelar in i hur bra skick ett däck är och många av dessa faktorer går inte att se på däcket när man tittar på det. T.ex. antalet värmecyklar (hur många gånger det har varit uppvärmt), hur det har förvarats, däckets åder, tiden som gått från när det användes för första gången, hur det har körts och av vem.
 												</p>
-												<p>Däcken kan om sagt vara slut långt innan det faktiskt börjar synas på däcket och man kan därför aldrig, utan att veta däckets fulla historik, uttala sig om ifall ett däck är slut eller inte. Dock gäller det alltid att bakdäcket är slut när det börjar släppa mer/på ett annat sätt än vad det gjort tidigare och ett framdäcks livstid är som regel 2-3 bakdäck. Kör aldrig på ett däck som du inte har fullt förtroende för!
+												<p>Däcken kan som sagt vara slut långt innan det faktiskt börjar synas på däcket och man kan därför aldrig, utan att veta däckets fulla historik, uttala sig om ifall ett däck är slut eller inte. Dock gäller det alltid att bakdäcket är slut när det börjar släppa mer/på ett annat sätt än vad det gjort tidigare och ett framdäcks livstid är som regel 2-3 bakdäck. Kör aldrig på ett däck som du inte har fullt förtroende för!
 												</p>
 											</div>
 										</div>
@@ -149,13 +149,13 @@ get_header();
 										<div id="faq-cat-1-sub-5" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Att lära sig vilken gummiblandning man ska välja tar tid och det är ingen exakt vetenskap då det är många faktorer som spelar in. Exempel på dessa faktorer är: vilken bana du ska köra på, vad som är syftet med din körning och framförallt vilken temperatur det är i asfalten.
+												Att lära sig vilken gummiblandning man ska välja tar tid, det är ingen exakt vetenskap då det är många faktorer som spelar in. Exempel på dessa faktorer är: vilken bana du ska köra på, vad som är syftet med din körning och framförallt vilken temperatur det är i asfalten.
 												</p>
 												<p>Grundregeln är att en mediumblandning aldrig är helt fel medan en mjukare/hårdare blandning kan bli fel. Kör du med en blandning som är för hård för de förutsättningar som råder kommer du inte att ha det fäste som du hade kunnat ha med ett mjukare däck. Väljer du istället ett för mjukt däck kommer det att bli ”kallruggat” och däcket blir snabbt förstört.
 												</p>
-												<p>Ju mjukare blandning desto bättre fäste och kortare livstid har däcket, i alla temperaturer. En hårdare blandning har längre livstid och sämre fäste, i alla temperaturer. Det gäller därför att göra en avvägning med rådande förutsättningar. En snabb förare kan välja det absolut mjukaste däcket till ett kval fast denne vet att det bara kommer hålla 3 varv. Medan den glada amatören väljer att köra på ett av de allra hårdaste då den bedömer att han har tillräckligt bra fäste i förhållande till det tempo den kör i och däcket fortsätter  att hålla samma fäste dag efter dag efter dag på banan.
+												<p>Ju mjukare blandning desto bättre fäste och kortare livstid har däcket, i alla temperaturer. En hårdare blandning har längre livstid och sämre fäste, i alla temperaturer. Det gäller därför att göra en avvägning med rådande förutsättningar. En snabb förare kan välja det absolut mjukaste däcket till ett kval fast denne vet att det bara kommer hålla 3 varv. Medan den glada bandagsåkaren väljer att köra på ett av de allra hårdaste då denne bedömer att den har tillräckligt bra fäste i förhållande till det tempo den kör i och däcket fortsätter att hålla samma fäste dag efter dag efter dag på banan.
 												</p>
-												<p>Slå gärna oss en signal och berätta om dina mål och vart du ska köra så kan vi hjälpa dig att välja rätt.
+												<p>Slå oss gärna en signal och berätta om dina mål och vart du ska köra så kan vi hjälpa dig att välja rätt.
 												</p>
 											</div>
 										</div>
@@ -166,7 +166,7 @@ get_header();
 										<div class="panel-heading">
 											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-6">
 												<h4 class="panel-title">
-													Kan jag beställa mot faktura?
+													Hur långe ska jag värma mina däck?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
@@ -174,7 +174,7 @@ get_header();
 										<div id="faq-cat-1-sub-6" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Företag kan göra beställningar mot faktura. Vi har dock tyvärr inte möjlighet att erbjuda detta till privatpersoner. Till privatpersoner erbjuder vi istället kortbetalning och förskottsbetalning.
+												Ett nytt däck ska värmas i minst en timme, gärna en och en halv. Det viktiga är att däcket och även fälgen är genomvarm. Annars riskerar man att temperaturen sjunker snabbt när man tar av värmarna och rullar ut på den, i många fall, kalla asfalten.
 												</p>
 											</div>
 										</div>
@@ -185,7 +185,7 @@ get_header();
 										<div class="panel-heading">
 											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-7">
 												<h4 class="panel-title">
-													Kan jag betala med kort?
+													Ska jag värma mina regndäck?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
@@ -193,8 +193,10 @@ get_header();
 										<div id="faq-cat-1-sub-7" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Ja, efter att vi mottagit din order kan vi att skicka dig en länk där du betalar din order via kort.
+												Nej! Många gör detta och lika många gör fel. Regndäcken har en arbetstemperatur på ca 40 grader vilket snabbt uppnås när du är ute på banan.
 												</p>
+												<p>Även om man bara har på sina värmare en kortare tid riskerar man att temperaturen i däckets yta blir för varmt vilket föråldrar däcket avsevärt och det kan snabbt förstöras. Om man skulle lyckas värma däcket till precis 40 grader skulle denna värme ändå försvinna så fort man rullade genom ett par vattenpölar.</p>
+												<p>Skulle du råka glömma värmarna på i, låt oss säga 30 minuter, är de förstörda.</p>
 											</div>
 										</div>
 									</div><!-- FAQ SECTION /.SLUT-->
@@ -204,7 +206,7 @@ get_header();
 										<div class="panel-heading">
 											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-8">
 												<h4 class="panel-title">
-													Hur långe ska jag värma mina däck?
+													Ska jag sandpappra/fila mina nya regndäck?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
@@ -212,7 +214,7 @@ get_header();
 										<div id="faq-cat-1-sub-8" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Ett nytt däck ska värmas i minst en timme, gärna en och en halv. Det viktiga är att däcket och även fälgen är genom. Annars riskerar man att temperaturen sjunker snabbt när man tar av värmarna och rullar ut på den, i många fall, kalla asfalten.
+												Ett nytt regndäck är halt som såpa om man kör ut i regn första gången de används. Att sandpappra eller fila det gör tyvärr ingen skillnad. Däcket behöver köras på torrt underlag för att ytan ska ruggas upp men framförallt för att stommen ska ”aktiveras”.
 												</p>
 											</div>
 										</div>
@@ -223,7 +225,7 @@ get_header();
 										<div class="panel-heading">
 											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-9">
 												<h4 class="panel-title">
-													Ska jag värma mina regndäck?
+													Hur vet jag hur gammalt mitt däck är?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
@@ -231,11 +233,7 @@ get_header();
 										<div id="faq-cat-1-sub-9" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Nej! Många gör detta och lika många har fel. Regndäcken har en arbetstemperatur på ca 40 grader vilket uppnås snabbt när du är ute på banan.
-												</p>
-												<p>Även om man bara har på sina värmare en kortare tid riskerar man att temperaturen i däckets yta blir för varmt vilket kommer föråldra däcket avsevärt och det kan snabbt förstöras. Om man skulle lyckas värma däcket till precis 40 grader skulle denna värme ändå försvinna så fort man rullade genom ett par vattenpölar.
-												</p>
-												<p>Skulle du råka glömma värmarna på i, låt oss säga 30 minuter, så är de förstörda.
+												På ena däcksidan kan du utläsa vilket år samt vilken vecka som däcket tillverkats.
 												</p>
 											</div>
 										</div>
@@ -246,7 +244,7 @@ get_header();
 										<div class="panel-heading">
 											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-10">
 												<h4 class="panel-title">
-													Ska jag sandpappra/fila mina nya regndäck?
+													Jag har ett däck som är fyra år gammalt, är det ok?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
@@ -254,7 +252,7 @@ get_header();
 										<div id="faq-cat-1-sub-10" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Ett nytt regndäck är halt som såpa om man kör ut i regn första gången de används. Att sandpappra eller fila det gör tyvärr ingen skillnad. Däcket behöver köras på torrt underlag för att ytan ska ruggas upp men framförallt för att stommen ska ”aktiveras”.
+												Förutsatt att däcket är oanvänt och har förvarats på ett korrekt sätt så är däck bra så länge som fem år efter tillverkningsdatum. Är det äldre än så bör man vara försiktig.
 												</p>
 											</div>
 										</div>
@@ -284,31 +282,12 @@ get_header();
 										<div class="panel-heading">
 											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-12">
 												<h4 class="panel-title">
-													Jag har ett däck som är fyra år gammalt, är det ok?
-													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
-												</h4>
-											</a>
-										</div>
-										<div id="faq-cat-1-sub-12" class="panel-collapse collapse">
-											<div class="panel-body">
-												<p>
-												Förutsatt att däcket är oanvänt och har förvarats på ett korrekt sätt så är däck bra så länge som fem år efter tillverkningsdatum. Är det äldre än så bör man vara försiktig.
-												</p>
-											</div>
-										</div>
-									</div><!-- FAQ SECTION /.SLUT-->
-
-									<!-- FAQ SECTION -->
-									<div class="panel panel-default panel-faq">
-										<div class="panel-heading">
-											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-13">
-												<h4 class="panel-title">
 													Kan jag köpa ventiler av er?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
 										</div>
-										<div id="faq-cat-1-sub-13" class="panel-collapse collapse">
+										<div id="faq-cat-1-sub-12" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
 												Absolut. Och när vi hjälper dig att byta däck byter vi alltid ventil utan extra kostnad.
@@ -320,9 +299,28 @@ get_header();
 									<!-- FAQ SECTION -->
 									<div class="panel panel-default panel-faq">
 										<div class="panel-heading">
-											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-14">
+											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-13">
 												<h4 class="panel-title">
 													Hjälper ni till att byta däck?
+													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+												</h4>
+											</a>
+										</div>
+										<div id="faq-cat-1-sub-13" class="panel-collapse collapse">
+											<div class="panel-body">
+												<p>
+												Självklart! Köper du däck av oss byter vi alltid däcken utan extra kostnad. Har du köpt dem någon annanstans gör vi det mot en kostnad på 50 kr/däck.
+												</p>
+											</div>
+										</div>
+									</div><!-- FAQ SECTION /.SLUT-->
+
+									<!-- FAQ SECTION -->
+									<div class="panel panel-default panel-faq">
+										<div class="panel-heading">
+											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-14">
+												<h4 class="panel-title">
+													Vad kostar frakten?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
@@ -330,7 +328,45 @@ get_header();
 										<div id="faq-cat-1-sub-14" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Självklart! Köper du däck av oss byter vi alltid däcken utan extra kostnad. Har du köpt dem någon annanstans gör vi det mot en kostnad på 50 kr/däck.
+												Vi har en enhetskostnad på 190 kronor. Om du istället förbeställer med leverans till banan så slipper du frakten.
+												</p>
+											</div>
+										</div>
+									</div><!-- FAQ SECTION /.SLUT-->
+
+									<!-- FAQ SECTION -->
+									<div class="panel panel-default panel-faq">
+										<div class="panel-heading">
+											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-15">
+												<h4 class="panel-title">
+													Kan jag betala med kort?
+													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+												</h4>
+											</a>
+										</div>
+										<div id="faq-cat-1-sub-15" class="panel-collapse collapse">
+											<div class="panel-body">
+												<p>
+												Ja, efter att vi mottagit din order kommer vi att skicka dig en länk där du betalar din order via kort.
+												</p>
+											</div>
+										</div>
+									</div><!-- FAQ SECTION /.SLUT-->
+
+									<!-- FAQ SECTION -->
+									<div class="panel panel-default panel-faq">
+										<div class="panel-heading">
+											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-16">
+												<h4 class="panel-title">
+													Kan jag betala mot faktura?
+													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+												</h4>
+											</a>
+										</div>
+										<div id="faq-cat-1-sub-16" class="panel-collapse collapse">
+											<div class="panel-body">
+												<p>
+												Företag kan göra beställningar mot faktura. Vi har dock tyvärr inte möjlighet att erbjuda detta till privatpersoner. Till privatpersoner erbjuder vi istället kortbetalning och förskottsbetalning.
 												</p>
 											</div>
 										</div>
@@ -342,7 +378,6 @@ get_header();
 				</div>
 			</div>
 		</section>
-
 
 <?
 get_footer();
