@@ -91,7 +91,7 @@ get_header();
 		<section class="yellow-section">
 			<div class="container-fluid"><!-- CONTAINER 970px -->
 				<div class="col-md-12">
-					<h2 class="text-center tagline">&quot;A photograph shouldn't be just a picture, it should be a philosophy.&quot;</h2>
+					<h2 class="text-center tagline">&quot;You can observe a lot by just watching - Yogi Berra.&quot;</h2>
 				</div>
 			</div><!-- CONTAINER /.SLUT -->
 		</section><!-- TAGLINE /.SLUT -->

@@ -91,7 +91,7 @@ get_header();
 							<p>2008 införskaffades den första riktiga cykeln, en 1000cc sporthoj och då var han fast på riktigt.
 							</p>
 							<p>2010 var det dags för den första bandagen, en SMC kurs, och lyckan var total!</p>
-							<blockquote>&ldquo;Fantastisk känsla att komma till en racingbana för första gången i sitt liv och känna sig som en racingsjtärna med knäskrap i varje kurva i otroliga hastigheter som av en utomstående skulle beskrivas som, ja i princip stillastånde. En av de bästa dagarna i mitt liv!&rdquo;</blockquote>
+							<blockquote class="team-quote">&ldquo;Fantastisk känsla att komma till en racingbana för första gången i sitt liv och känna sig som en racingsjtärna med knäskrap i varje kurva i otroliga hastigheter som av en utomstående skulle beskrivas som, ja i princip stillastånde. En av de bästa dagarna i mitt liv!&rdquo;</blockquote>
 							<p>Sedan har det fortsatt det 2011 och 2012 med bandagar och mera bandagar, krascher och mera krascher, fram till debuten i Rookie i slutet av 2012 som resulterade i ett löst styre i handen efter en hård inbromsning efter 5 varv. Ingen målgång men ingen krasch denna gång.</p>
 							<p>2013 var det satsning i Rookie 1000 som gällde!
 							Fjärde helgen fick ett abrupt slut då nyckelbenet gick av efter än lätt omkullkörning i starten på Falkenberg, operation, titanskruv, och efter ett försök att köra igen en vecka efter operation vilket resulterade i att nyckelbenet bröts upp igen (utan krasch). Ny operation, ny skruv, och inget mer tävlande den säsongen!</p>

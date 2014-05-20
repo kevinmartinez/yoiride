@@ -11,8 +11,7 @@
  *
  */
 get_header(); ?>
-		<!-- INTRO SECTION kommer vara återkommande i flera undersidor -->
-		<section class="yellow-section margin-top">
+<section class="yellow-section margin-top">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 pull-left">
@@ -22,18 +21,18 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 vara-dack">
 						<div>
-<h3>
-								Vi har valt att endast sälja Dunlop Motorsports racedäck. Varför? För att de i vårt och många andras tycker är de absolut bästa!<br><br>
+							<h3>
+								Yoiride har valt att endast sälja Dunlop Motorsports racedäck. Varför? För att de i vårt och många andras tycker är de absolut bästa!<br><br>
 								Nedan presenteras ett urval av de Dunlopdäck som vi säljer, vi har det allra mesta på lagret, för det mesta.  Hittar du inte de däck du söker så hör av dig. Vi kan få tag i samtliga racedäck från Dunlop, alltid till förmånliga priser.
 							</h3>
-							<hr>
 							<h3>
-								Läs om våra däck innan du bestämmer dig för vad du ska köra på! Du hittar information om våra däck <a href="faq.html">här</a><br><br>
-								<strong>Våra priser</strong><br><br>
-								Priserna som anges nedan gäller vid mindre beställningar. Vid beställningar på över 10 däck brukar vi kunna ge rabatt, slå oss en signal!
-							</h3>
+								Läs om våra däck innan du bestämmer dig för vad du ska köra på! Du hittar information om våra däck i vår <a class="faq" href="/faq">FAQ</a>
+								</h3>
+								<h2>Våra priser</h2>
+								<h3>
+								Priserna som anges nedan gäller vid mindre beställningar.<br> Vid beställningar på över 10 däck brukar vi kunna ge rabatt, slå oss en signal!</h3>
 						</div>
 					</div>
 						<div class="col-md-4 pull-right hidden-sm hidden-xs">
@@ -41,7 +40,9 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-			</div>
+			
+		</section>
+
 		</section><!-- INTRO SECTION /.SLUT-->
 
 

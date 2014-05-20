@@ -28,7 +28,6 @@ if (!is_front_page()) {
 } else {
 ?>
 
-
 		<!-- FULL COVER IMAGE SECTION -->
 		<section class="index-full-cover">
 			<div class="container">
@@ -36,12 +35,21 @@ if (!is_front_page()) {
 					<div class="col-md-12 index-tagline text-center">
 						<h1>YOIRIDE RACING</h1>
 					</div>
-					<div class="col-md-8 col-md-offset-2 text-center mini-tagline">
-						<h3>Yoiride är ett eventbolag med inriktning på motorsport, speciellt roadracing. <br>Vi har ett racingteam som tävlar på högsta nivå i Sverige.<br><br>
-						Utöver detta är vi även distributör av Dunlop Motorsports racedäck.<br>Vi har valt att bara sälja just racedäcken från Dunlop då vi tycker att det är de absolut bästa däcken och genom att specialisera oss på bara dessa blir vi riktigt bra på det vi gör!</h3>
-					</div>
 				</div>
 			</div>
+							<div class="container-fluid mini-tagline">
+
+								<div class="row">
+									<div class="col-lg-6 col-lg-offset-3">
+<h3>Yoiride är ett eventbolag med inriktning på motorsport, speciellt roadracing. <br><br>
+										Vi är distributör av Dunlop Motorsports racedäck. Vi har valt att bara sälja just racedäcken från Dunlop då vi tycker att det är de absolut bästa däcken och genom att specialisera oss på bara dessa blir vi riktigt bra på det vi gör!<br><br>Vi har dessutom racingteam som tävlar på högsta nivå i Sverige!</h3>
+
+									</div>
+								</div>
+
+							</div>
+
+
 		</section>
 
 		<!-- TOP SECTION specifik för startsidan -->
@@ -50,19 +58,19 @@ if (!is_front_page()) {
 				<div class="row">
 					<div class="col-md-4">
 						<div class="index-big-links">
-							<img src="<?php bloginfo('template_url'); ?>/img/racing_icon.png">
-							<p>Vi är ett eventbolag som brinner för motorsport, speciellt roadracing. Yoiride anordnar idag  bandagar inom roadracing, företagsevent inom all typ av motorsport och vi har ett roadracingteam!</p>
+							<a href="/team"><img src="<?php bloginfo('template_url'); ?>/img/racing_icon.png"></a>
+							<p>Yoirides racingteam tävlar drog igång 2012 och tävlar idag på högsta nivå i Sverige. Vi satsar framförallt på SM men ställer även upp i SO (Scandinavian Open) och mindre tävlingar i Sverige och utomlands.</p>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="index-big-links">
-							<img src="<?php bloginfo('template_url'); ?>/img/dunlop.png">
-							<p>Vi har valt att endast sälja Dunlop Motorsports racedäck eftersom vi tycker att det är de bästa däcken som finns att tillgå på marknaden. Vi är stolta distributörer av kvalitétsdäck!</p>
+							<a href="/dunlop"><img src="<?php bloginfo('template_url'); ?>/img/dunlop.png"></a>
+							<p>Vi har valt att endast sälja Dunlop Motorsports racedäck eftersom vi tycker att det är de bästa däcken som finns att tillgå på marknaden. Vi är stolta distributörer av riktiga kvalitétsdäck!</p>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="index-big-links">
-							<img src="<?php bloginfo('template_url'); ?>/img/event_icon.png">
+							<a href="/event"><img src="<?php bloginfo('template_url'); ?>/img/event_icon.png"></a>
 							<p>Vi kan hjälpa er att anordna alla typer av event kring motorsport. Desto konstigare och svårare förfrågan ni har, desto roligare blir det för oss att anordna det!</p>
 						</div>
 					</div>
@@ -74,6 +82,20 @@ if (!is_front_page()) {
 
 		<section class="yellow-section">
 			<div class="container">
+				<!-- NEWS HEAD -->
+					<div class="row">
+						<div class="col-md-6">
+							<h2>Nyheter</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<h3>
+								Läs våra senaste nyheter och racerapporter.
+							</h3>
+						</div>
+					</div>
+					<hr>
 				<div class="row">
 					<?php query_posts('cat=5&limit=3'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
