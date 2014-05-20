@@ -32,48 +32,47 @@ get_header();
 				<div class="row">
 					<section class="sponsor-section">
 						<div class="col-md-3 col-xs-6">
-							<a href="http://www.yoi.se"><img src="http://placehold.it/240x150&text=YOI"></a>
+							<a href="http://www.yoi.se" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/yoi.png"></a>
 						</div>
 						<div class="col-md-3 col-xs-6">
-							<a href="http://www.tvdags.se"><img src="http://placehold.it/240x150&text=TVDags"></a>
+							<a href="http://www.tvdags.se" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/tvdags.png"></a>
 						</div>
 						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=BakupSverige"></a>
+							<a href="http://www.backupsverige.se/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/backupsverige.png"></a>
 						</div>
 						<div class="col-md-3 col-xs-6">
-							<a href="http://www.adtraction.com"><img src="http://placehold.it/240x150&text=Adtraction"></a>
-						</div>
-					</section>
-				</div>
-				<div class="row">
-					<section class="sponsor-section">
-						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=FCP"></a>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<a href="http://www.vardassistans.se"><img src="http://placehold.it/240x150&text=Vårdassistans"></a>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=Alifa"></a>
-						</div>
-						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=Polidom"></a>
+							<a href="http://www.adtraction.com" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/adtraction.png"></a>
 						</div>
 					</section>
 				</div>
 				<div class="row">
 					<section class="sponsor-section">
 						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=SMX Sport"></a>
+							<a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/fcp.png"></a>
 						</div>
 						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=Honda MC city upplands väsby"></a>
+							<a href="http://www.vardassistans.se" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/vardassistans.png"></a>
 						</div>
 						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=Systemtext"></a>
+							<a href="#" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/alifa.png"></a>
 						</div>
 						<div class="col-md-3 col-xs-6">
-							<a href="#"><img src="http://placehold.it/240x150&text=pixelkojan.se"></a>
+							<a href="http://www.polidom.se/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/polidom.png"></a>
+						</div>
+					</section>
+				</div>
+				<div class="row">
+					<section class="sponsor-section">
+						<div class="col-md-3 col-xs-6">
+							<a href="http://www.smxsports.se/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/smx.png"></a>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<a href="http://hondacity.se/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/hondacity.png"></a>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<a href="http://www.systemtext.se/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/sponsors/systemtext.png"></a>
+						</div>
+						<div class="col-md-3 col-xs-6">
 						</div>
 					</section>
 				</div>
