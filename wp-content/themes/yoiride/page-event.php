@@ -16,9 +16,11 @@ get_header();
 					<div class="col-md-5 pull-left">
 						<div>
 							<h3>
-                                                        <?php while (have_posts()) : the_post(); ?>
-                                                                <?php the_content(); ?>
-                                                        <?php endwhile; ?>
+								Vill ni göra något riktigt kul på firmafesten, svensexan möhippan eller 60-årsfesten? Vi kan hjälpa er att anordna alla typer av event kring motorsport. Till exempel motocross, rallycross, lastbilsrace, dragracing, lådbilsrace, båtracing, roadracing, speedway och mycket mera. Bara din fantasi sätter gränser!
+								<br><br>
+								Mariokart på riktigt? Javisst, vi kan ordna superkarts, paintballutrustning, bananskal, rökbomber, försäkringar och en heldag på någon av Sveriges bästa motorstadiums.
+								<br><br>
+								Tveka inte med att kontakta oss med din förfrågan på <a href="mailto:event@yoiride.se">event@yoiride.se</a>
 							</h3>
 						</div>
 					</div>
