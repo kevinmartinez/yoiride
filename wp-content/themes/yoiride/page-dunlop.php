@@ -24,9 +24,16 @@ get_header(); ?>
 				<div class="row">
 					<div class="col-md-6">
 						<div>
-						        <?php while (have_posts()) : the_post(); ?>
-                                                                <?php the_content(); ?>
-                                                        <?php endwhile; ?>	
+<h3>
+								Vi har valt att endast sälja Dunlop Motorsports racedäck. Varför? För att de i vårt och många andras tycker är de absolut bästa!<br><br>
+								Nedan presenteras ett urval av de Dunlopdäck som vi säljer, vi har det allra mesta på lagret, för det mesta.  Hittar du inte de däck du söker så hör av dig. Vi kan få tag i samtliga racedäck från Dunlop, alltid till förmånliga priser.
+							</h3>
+							<hr>
+							<h3>
+								Läs om våra däck innan du bestämmer dig för vad du ska köra på! Du hittar information om våra däck <a href="faq.html">här</a><br><br>
+								<strong>Våra priser</strong><br><br>
+								Priserna som anges nedan gäller vid mindre beställningar. Vid beställningar på över 10 däck brukar vi kunna ge rabatt, slå oss en signal!
+							</h3>
 						</div>
 					</div>
 						<div class="col-md-4 pull-right hidden-sm hidden-xs">
