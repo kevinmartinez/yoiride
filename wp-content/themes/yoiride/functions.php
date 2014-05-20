@@ -16,7 +16,8 @@ function wp_get_attachment( $attachment_id ) {
 		'description' => $attachment->post_content,
 		'href' => get_permalink( $attachment->ID ),
 		'src' => $attachment->guid,
-		'title' => $attachment->post_title
+		'title' => $attachment->post_title,
+		'author' => $attachment->post_author
 	);
 }
 

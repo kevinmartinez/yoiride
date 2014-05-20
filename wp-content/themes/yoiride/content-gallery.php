@@ -2,7 +2,7 @@
 		<section class="yellow-section margin-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 pull-left">
+					<div class="col-md-12">
 						<div>
 							<h2><? the_title();?></h2>
 						</div>
@@ -41,10 +41,14 @@
 
 			$attachment_meta = wp_get_attachment($thumb_id);
 
-		if(isset($attachment_meta['description']))
-			echo '<font color="white">Kevin. styr upp ngt fint for detta :D '.$attachment_meta['description'].'</font>';
-			echo '</div></section></div>';
+			echo '<div class="gallery-bottom-caption">';
+			echo '<span class="gallery-author">Upplagd av: '.get_the_author_meta("display_name", $attachment_meta['author']).'</span>';
+			
+			if(isset($attachment_meta['description']))
+				echo '<p>'.$attachment_meta['description'].'</p>';
+			echo '</div></div></div>';
 		}
 
 		?>
-	</div>
+			</div>
+		</section>
