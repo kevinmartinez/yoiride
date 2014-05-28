@@ -25,14 +25,16 @@ get_header(); ?>
 						<div>
 							<h3>
 								Yoiride har valt att endast sälja Dunlop Motorsports racedäck. Varför? För att de i vårt och många andras tycke är de absolut bästa!<br><br>
-								Nedan presenteras ett urval av de Dunlopdäck vi säljer, vi har det allra flesta på lagret. Hittar du inte de däck du söker så hör av dig. Vi kan få tag i samtliga racedäck från Dunlop, alltid till förmånliga priser!
+								Nedan presenteras ett urval av de Dunlopdäck vi säljer och vi har det allra flesta på lagret. Hittar du inte de däck du söker så hör av dig per mail eller telefon. Vi kan få tag i samtliga racedäck från Dunlop och alltid till förmånliga priser!
 							</h3>
 							<h3>
-								Läs om våra däck innan du bestämmer dig för vad du ska köra på! Du hittar information om våra däck i vår <a class="faq" href="/faq">FAQ</a>
-								</h3>
+								Läs gärna om våra däck innan du bestämmer dig för vilka du ska köra på. Du hittar information om våra däck i vår <a class="faq" href="/faq">FAQ</a>
+							</h3>
 								<h2>Våra priser</h2>
 								<h3>
-								Priserna som anges nedan gäller vid mindre beställningar.<br>Vid beställningar på över 10 däck brukar vi kunna ge rabatt, slå oss en signal!</h3>
+									Priserna som anges nedan gäller vid mindre beställningar.<br />
+									Vid beställningar över 10 däck brukar vi kunna ge rabatt. Slå oss en signal!
+								</h3>
 						</div>
 					</div>
 						<div class="col-md-4 pull-right hidden-sm hidden-xs">
