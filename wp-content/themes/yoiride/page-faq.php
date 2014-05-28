@@ -128,7 +128,7 @@ get_header();
 										<div id="faq-cat-1-sub-4" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												För en riktigt snabb förare kan däcket vara ”slut” redan efter ca 20 varv. Föraren känner då att greppet inte ger riktigt samma fäste och vill byta till ett nyare däck för att inte behöva anpassa hastigheten efter däckets slitage. En glad men långsammare bandagsförare skulle dock inte märka att samma däck var slitet. I lägre hastigheter märks inte slitaget på alls samma sätt. En långsammare förare sliter inte heller på däcken lika mycket som en snabbare.
+												För en riktigt snabb förare kan däcket vara ”slut” redan efter ca 20 varv. Föraren känner då att greppet inte ger riktigt samma fäste och vill byta till ett nyare däck för att inte behöva anpassa hastigheten efter däckets slitage. En glad men långsammare bandagsförare skulle dock inte märka att samma däck var slitet. I lägre hastigheter märks inte slitaget alls på samma sätt. En långsammare förare sliter inte heller på däcken lika mycket som en snabbare.
 												</p>
 												<p>Med andra ord håller däcken längre ju långsammare man kör, dels därför att man inte sliter på däcket lika mycket men också för att man inte lider av däckets slitage på samma sätt.
 												</p>
