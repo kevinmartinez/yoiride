@@ -42,7 +42,7 @@ if (!is_front_page()) {
 								<div class="row">
 									<div class="col-lg-6 col-lg-offset-3">
 <h3>Yoiride är ett eventbolag med inriktning på motorsport, speciellt roadracing. <br><br>
-										Vi är distributör av Dunlop Motorsports racedäck. Vi har valt att bara sälja just racedäcken från Dunlop då vi tycker att det är de absolut bästa däcken och genom att specialisera oss på bara dessa blir vi riktigt bra på det vi gör!<br><br>Vi har dessutom racingteam som tävlar på högsta nivå i Sverige!</h3>
+										Vi är återförsäljare av Dunlop Motorsports racedäck. Vi har valt att bara sälja just racedäcken från Dunlop då vi tycker att det är de absolut bästa däcken och genom att specialisera oss på bara dessa är vi riktigt bra på det vi gör!<br><br>Vi har dessutom ett racingteam som tävlar på högsta nivå i Sverige!</h3>
 
 									</div>
 								</div>
@@ -59,13 +59,13 @@ if (!is_front_page()) {
 					<div class="col-md-4">
 						<div class="index-big-links">
 							<a href="/team"><img src="<?php bloginfo('template_url'); ?>/img/racing_icon.png"></a>
-							<p>Yoirides racingteam tävlar drog igång 2012 och tävlar idag på högsta nivå i Sverige. Vi satsar framförallt på SM men ställer även upp i SO (Scandinavian Open) och mindre tävlingar i Sverige och utomlands.</p>
+							<p>Yoirides racingteam drog igång 2012 och tävlar idag på högsta nivå i Sverige. Vi satsar framförallt på SM men ställer även upp i SO (Scandinavian Open) och mindre tävlingar både i Sverige och utomlands.</p>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="index-big-links">
 							<a href="/dunlop"><img src="<?php bloginfo('template_url'); ?>/img/dunlop.png"></a>
-							<p>Vi har valt att endast sälja Dunlop Motorsports racedäck eftersom vi tycker att det är de bästa däcken som finns att tillgå på marknaden. Vi är stolta distributörer av riktiga kvalitétsdäck!</p>
+							<p>Vi har valt att endast sälja Dunlop Motorsports racedäck eftersom vi tycker att det är de bästa däcken som finns att tillgå på marknaden. Vi är stolta över att leverera riktiga kvalitétsdäck!</p>
 						</div>
 					</div>
 					<div class="col-md-4">
