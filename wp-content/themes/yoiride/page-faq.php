@@ -57,7 +57,7 @@ get_header();
 												<p>
 												Att ha rätt däcktryck är otroligt viktigt för att du ska få rätt grepp samt för att däcken skall få ett fint slitage och hålla länge. Vad som är rätt däcktryck varierar mellan olika märken på marknaden och ofta även mellan olika modeller av samma märke.
 												</p>
-												<p>Det tryck som spelar roll är det som du har i däcket när du är ute på banan. Vad det har för kalltryck eller vad det har för tryck när det är uppvärmt med värmare spelar egentligen ingen roll, även om det kan vara bra riktmärken. För att kontrollera däcktrycket krävs det att man mäter direkt efter att man kommer in i depån, så snart som möjligt efter att hojen stannat. Genom att göra detta kan man enkelt utläsa hur mkt för mycket/lite luft man hade i när man mätte trycket med värmarna på.
+												<p>Det tryck som spelar roll är det som du har i däcket när du är ute på banan. Vad det har för kalltryck eller vad det har för tryck när det är uppvärmt med värmare spelar egentligen ingen roll, även om det kan vara bra riktmärken. För att kontrollera däcktrycket krävs det att man mäter direkt efter att man kommer in i depån, så snart som möjligt efter att hojen stannat. Genom att göra detta kan man enkelt utläsa hur mycket för mycket/lite luft man hade i när man mätte trycket med värmarna på.
 												</p>
 												<p>Hur mycket däcktrycket ändrar sig på banan beror på en mängd olika faktorer såsom asfaltstemp, gummiblandning men framförallt beror det på tempot.
 												</p>
@@ -107,7 +107,7 @@ get_header();
 										<div id="faq-cat-1-sub-3" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Detta är två av de absolut vanligaste frågorna vi får i depån. De är också två av de svåraste frågorna att svara på. Många tror att det bara är hur mycket gummi som är kvar på däcket som bestämmer om ”det är slut” eller inte. Men det är väldigt många faktorer som spelar in i hur bra skick ett däck är och många av dessa faktorer går inte att se på däcket när man tittar på det. T.ex. antalet värmecyklar (hur många gånger det har varit uppvärmt), hur det har förvarats, däckets åder, tiden som gått från när det användes för första gången, hur det har körts och av vem.
+												Detta är två av de absolut vanligaste frågorna vi får i depån. De är också två av de svåraste frågorna att svara på. Många tror att det bara är hur mycket gummi som är kvar på däcket som bestämmer om ”det är slut” eller inte. Men det är väldigt många faktorer som spelar in i hur bra skick ett däck är och många av dessa faktorer går inte att se på däcket när man tittar på det. T.ex. antalet värmecykler (hur många gånger det har varit uppvärmt), hur det har förvarats, däckets åder, tiden som gått från när det användes för första gången, hur det har körts och av vem.
 												</p>
 												<p>Däcken kan som sagt vara slut långt innan det faktiskt börjar synas på däcket och man kan därför aldrig, utan att veta däckets fulla historik, uttala sig om ifall ett däck är slut eller inte. Dock gäller det alltid att bakdäcket är slut när det börjar släppa mer/på ett annat sätt än vad det gjort tidigare och ett framdäcks livstid är som regel 2-3 bakdäck. Kör aldrig på ett däck som du inte har fullt förtroende för!
 												</p>
@@ -153,7 +153,7 @@ get_header();
 												</p>
 												<p>Grundregeln är att en mediumblandning aldrig är helt fel medan en mjukare/hårdare blandning kan bli fel. Kör du med en blandning som är för hård för de förutsättningar som råder kommer du inte att ha det fäste som du hade kunnat ha med ett mjukare däck. Väljer du istället ett för mjukt däck kommer det att bli ”kallruggat” och däcket blir snabbt förstört.
 												</p>
-												<p>Ju mjukare blandning desto bättre fäste och kortare livstid har däcket, i alla temperaturer. En hårdare blandning har längre livstid och sämre fäste, i alla temperaturer. Det gäller därför att göra en avvägning med rådande förutsättningar. En snabb förare kan välja det absolut mjukaste däcket till ett kval fast denne vet att det bara kommer hålla 3 varv. Medan den glada bandagsåkaren väljer att köra på ett av de allra hårdaste då denne bedömer att den har tillräckligt bra fäste i förhållande till det tempo den kör i och däcket fortsätter att hålla samma fäste dag efter dag efter dag på banan.
+												<p>Ju mjukare blandning desto bättre fäste och kortare livstid har däcket, i alla temperaturer. En hårdare blandning har längre livstid men inte riktigt samma fäste i alla temperaturer. Det gäller därför att göra en avvägning med rådande förutsättningar. En snabb förare kan välja det absolut mjukaste däcket till ett kval fast denne vet att det bara kommer hålla 3 varv. Medan den glada bandagsåkaren väljer att köra på ett av de allra hårdaste då denne bedömer att den har tillräckligt bra fäste i förhållande till det tempo den kör i och däcket fortsätter att hålla samma fäste dag efter dag efter dag på banan.
 												</p>
 												<p>Slå oss gärna en signal och berätta om dina mål och vart du ska köra så kan vi hjälpa dig att välja rätt.
 												</p>
@@ -166,7 +166,7 @@ get_header();
 										<div class="panel-heading">
 											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-6">
 												<h4 class="panel-title">
-													Hur långe ska jag värma mina däck?
+													Hur länge ska jag värma mina däck?
 													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
 												</h4>
 											</a>
@@ -214,26 +214,10 @@ get_header();
 										<div id="faq-cat-1-sub-8" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Ett nytt regndäck är halt som såpa om man kör ut i regn första gången de används. Att sandpappra eller fila det gör tyvärr ingen skillnad. Däcket behöver köras på torrt underlag för att ytan ska ruggas upp men framförallt för att stommen ska ”aktiveras”.
+													Ett nytt regndäck kan vara halt som såpa om man kör i regn första gången det används. Att sandpappra eller fila däcket gör tyvärr ingen skillnad. Däcket behöver köras för att ytan ska ruggas upp men framförallt för att stommen ska ”aktiveras”.
 												</p>
-											</div>
-										</div>
-									</div><!-- FAQ SECTION /.SLUT-->
-
-									<!-- FAQ SECTION -->
-									<div class="panel panel-default panel-faq">
-										<div class="panel-heading">
-											<a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-9">
-												<h4 class="panel-title">
-													Hur vet jag hur gammalt mitt däck är?
-													<span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
-												</h4>
-											</a>
-										</div>
-										<div id="faq-cat-1-sub-9" class="panel-collapse collapse">
-											<div class="panel-body">
 												<p>
-												På ena däcksidan kan du utläsa vilket år samt vilken vecka som däcket tillverkats.
+													Det bästa är att köra ett par varv i lugnt tempo på torrt underlag. Det kan kännas trist att slösa ett helt pass på detta men det är det värt för att slippa halka runt i regnet när man ska köra in däcket.
 												</p>
 											</div>
 										</div>
@@ -271,7 +255,7 @@ get_header();
 										<div id="faq-cat-1-sub-11" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												På ena däcksidan kan du utläsa vilket år samt vilken vecka som däcket tillverkats.
+												På ena däcksidan kan du utläsa vilket år samt vilken vecka som däcket tillverkats. (T.ex. [4513] = vecka 45 år 2013)
 												</p>
 											</div>
 										</div>
@@ -290,7 +274,7 @@ get_header();
 										<div id="faq-cat-1-sub-12" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Absolut. Och när vi hjälper dig att byta däck byter vi alltid ventil utan extra kostnad.
+													Absolut och när vi hjälper dig att byta däck byter vi såklart alltid ventil utan extra kostnad.
 												</p>
 											</div>
 										</div>
@@ -309,7 +293,7 @@ get_header();
 										<div id="faq-cat-1-sub-13" class="panel-collapse collapse">
 											<div class="panel-body">
 												<p>
-												Självklart! Köper du däck av oss byter vi alltid däcken utan extra kostnad. Har du köpt dem någon annanstans gör vi det mot en kostnad på 50 kr/däck.
+													Självklart! Köper du däck av oss byter vi alltid däcken utan extra kostnad. Har du köpt dem någon annanstans gör vi det mot en kostnad på 50 kr/däck.
 												</p>
 											</div>
 										</div>
