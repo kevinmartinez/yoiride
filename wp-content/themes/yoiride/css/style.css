@@ -1,123 +1,15 @@
-/* karmint & pixelkojan presenterar yoiride racing */
+/*
+karmint & pixelkojan presenterar yoiride racing
+*/
 
 
 /*
-
-==========Yoiride colors we use
+Yoiride colors we use
 
 Yellow = #feca0a
 
 White = #ecf0f1
-
-==========VIKTIGT==========
-
-OBS  DISKUTERA BREADCRUMBS MED MACKAN LINE 263
-
 */
-
-
-
-
-
-/* CUSTOMIZE THE CAROUSEL
-	-------------------------------------------------- */
-
-	/* Carousel base class */
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-	margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-	z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-	height: 400px;
-	background-color:#555;
-}
-.carousel img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-height: 400px;
-}
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Pad the edges of the mobile views a bit */
-.marketing {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
-.marketing h2 {
-	font-weight: normal;
-}
-
-.marketing .col-lg-4 p {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-.featurette {
-padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
-overflow: hidden; /* Vertically center images part 2: clear their floats. */
-}
-.featurette-image {
-margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-}
-
-/* Give some space on the sides of the floated elements so text doesn't run right into it. */
-.featurette-image.pull-left {
-margin-right: 40px;
-}
-.featurette-image.pull-right {
-margin-left: 40px;
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-	font-size: 50px;
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* General styles
 ================================= */
@@ -290,6 +182,7 @@ a:focus {
 .index-tagline h3{
 	color: #fff;
 	text-align: justify;
+<<<<<<< Updated upstream
 }
 
 .mini-tagline {
@@ -305,6 +198,23 @@ a:focus {
     text-align: center;
 }
 
+=======
+}
+
+.mini-tagline {
+	width: 100%;
+}
+
+.mini-tagline h3 {
+	    font-family: 'GothamBold';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #fff;
+    text-align: center;
+}
+
+>>>>>>> Stashed changes
 
 .index-full-cover {
 	background: url("../img/index_cover.jpg") no-repeat center center;
@@ -371,12 +281,12 @@ a:focus {
 /* Event
 ================================= */
 .event-full-cover {
-	background: url("../img/tent_full_cover.jpg") no-repeat center center fixed;
+	background: url("../img/slide_1.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 100%;
+	height: 50%;
 }
 
 /* Sponsors
@@ -388,6 +298,52 @@ a:focus {
 .sponsor-section img {
 	margin-top: 25px;
 }
+
+.sponsors img {
+	border: 10px solid #feca0a;
+	background-color: #ccc;
+	border-radius: 50%;
+			 -webkit-transition: border ease .4s;
+	  -o-transition: border ease .4s;
+	  transition: border ease .4s;
+
+}
+
+.sponsors img:hover {
+	border: 10px solid #000;
+	border-radius: 50%;
+}
+
+.sponsors-tv img {
+	border: 10px solid #f0f0f0;
+	background-color: #171923;
+	border-radius: 50%;
+			 -webkit-transition: border ease .4s;
+	  -o-transition: border ease .4s;
+	  transition: border ease .4s;
+
+}
+
+.sponsors-tv img:hover {
+	border: 10px solid #feca0a;
+	border-radius: 50%;
+}
+
+.sponsors-backup img {
+	border: 10px solid #f0f0f0;
+	background-color: #fff;
+	border-radius: 50%;
+			 -webkit-transition: border ease .4s;
+	  -o-transition: border ease .4s;
+	  transition: border ease .4s;
+
+}
+
+.sponsors-backup img:hover {
+	border: 10px solid #feca0a;
+	border-radius: 50%;
+}
+
 
 /* Image gallery
 ================================= */
@@ -628,13 +584,48 @@ footer h6 {
 
 adress {
 	margin-top: 10px;
-	margin-bottom: 40px;
+	margin-bottom: spx;
 }
 
 .footer-links {
 	padding-top: 20px;
 }
 
+.label-info {
+    background-color: #feca0a;
+}
+
+.label {
+	color: #000;
+}
+
+.blog-th img{
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	max-width: 70px;
+}
+
+.blog-section h4 {
+	font-size: 28px;
+}
+
+.blog-section a:hover {
+	color: #feca0a;
+}
+
+.blog-section ul li {
+	list-style-type: none;
+	font-size: 16px;
+}
+
+.blog-section i {
+	margin-right: -15px;
+}
+
+.blog-section .fa {
+	padding-left: 0;
+}
 
 /* Media Queries
 =================================
