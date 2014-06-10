@@ -31,7 +31,7 @@
         		'post_mime_type' => 'image',
         		'order' => 'ASC',
         		'orderby' => 'menu_order ID',
-        		'numberposts' => 10)
+        		'numberposts' => 200)
     		);
 
     		foreach ( $attachments as $thumb_id => $attachment ) {
@@ -42,7 +42,7 @@
 			$attachment_meta = wp_get_attachment($thumb_id);
 
 			echo '<div class="gallery-bottom-caption">';
-			echo '<span class="gallery-author">Upplagd av: '.get_the_author_meta("display_name", $attachment_meta['author']).'</span>';
+			//echo '<span class="gallery-author">Upplagd av: '.get_the_author_meta("display_name", $attachment_meta['author']).'</span>';
 			
 			if(isset($attachment_meta['description']))
 				echo '<p>'.$attachment_meta['description'].'</p>';

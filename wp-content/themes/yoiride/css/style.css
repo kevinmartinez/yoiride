@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-family: GothamBold;
-	font-size: 55px;
+	font-size: 60px;
 }
 
 h2 {
@@ -280,21 +280,31 @@ a:focus {
 /* Index/start page
 ================================= */
 .index-tagline {
-	margin-top: 115px;
+	margin-top: 100px;
+	margin-bottom: 50px;
 	color: #feca0a;
 }
 
-.mini-tagline {
-	color: #fff;
-}
+
 
 .index-tagline h3{
 	color: #fff;
+	text-align: justify;
 }
 
-.index-buttons {
-	margin-top: 15%;
+.mini-tagline {
+	width: 100%;
 }
+
+.mini-tagline h3 {
+	    font-family: 'GothamBold';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #fff;
+    text-align: center;
+}
+
 
 .index-full-cover {
 	background: url("../img/index_cover.jpg") no-repeat center center;
@@ -302,12 +312,13 @@ a:focus {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	max-height: 400px;
+	min-height: 550px;
 	margin-top: 50px;
 }
 
 .index-main-section {
-	padding: 100px 0;
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
 .index-bikes {
@@ -392,7 +403,7 @@ a:focus {
 
 
 	.gallery-bottom-caption {
-		max-width: 100%;
+		max-width: 80%;
 		margin: 0 auto;
 		margin-top: -25px;
 		text-align: left;
@@ -545,6 +556,10 @@ label {
 	padding: 15px 25px;
 }
 
+a.faq {
+	text-decoration: underline;
+}
+
 .faq-cat-content {
 	margin-top: 25px;
 }
@@ -661,6 +676,15 @@ adress {
 		text-align: justify;
 	}
 
+	.mini-tagline h3 {
+	    font-family: 'GothamBold';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #000;
+    text-align: justify;
+}
+
 			.gallery-bottom-caption {
 		max-width: 100%;
 		margin: 0 auto;
@@ -686,6 +710,88 @@ adress {
 		font-size: 16px;
 		font-weight: lighter;
 
+	}
+
+	/*
+	Fonts & typography
+	*/
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 15px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	h4.panel-title {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.margin-top {
+		margin-top: 25px;
+	}
+
+	.navbar-brand img {
+		max-width: 40%;
+		height: auto;
+		float: left;
+		margin-left: -12px;
+	}
+
+	.navbar {
+		min-height: 50px;
+	}
+
+	.navbar {
+		font-weight: 400;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff;
+	}
+
+	.team-profiles p {
+		font-size: 14px;
+	}
+
+	.white-section {
+		padding: 25px 0;
+	}
+
+	.yellow-section {
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
+
+	.black-section {
+		padding: 5px 0;
+	}
+
+	.black-section h3 {
+		text-align: center;
+	}
+
+	h2.tagline {
+		font-size: 18px;
+	}
+
+	h5.profile-info{
+		text-align: center;
+	}
+
+	.btn {
+		min-width: 100%;
 	}
 
 }

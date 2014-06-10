@@ -2,17 +2,17 @@
 		<footer class="footer-black">
 			<div class="container">
 				<div class="row">
-				<div class="col-md-12 col-xs-12 footer-black-social">
+					<div class="col-md-12 col-xs-12 footer-black-social">
 						<p class="text-center">
-						<i class="fa fa-facebook fa-2x"></i>
-						<i class="fa fa-phone fa-2x"></i>
-						<i class="fa fa-envelope fa-2x"></i>
+						<a href="https://www.facebook.com/yoiride" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+						<a href="tel:+46709346901"><i class="fa fa-phone fa-2x"></i></a>
+						<a href="mailto:kontakt@yoiride.se"><i class="fa fa-envelope fa-2x"></i></a>
 						</p>
 					</div>
 				</div>
 				<div class="row">
 					<adress class="col-md-12 col-xs-12 footer-black-adress">
-					<h5 class="text-center">YOIRIDE • ÖLANDSGATAN 42 • SE-116 65 STOCKHOLM • SWEDEN • KONTAKT@YOIRIDE.SE</h5>
+					<h5 class="text-center">YOIRIDE • ÖLANDSGATAN 42 • SE-116 65 STOCKHOLM • SWEDEN • <a href="mailto:kontakt@yoiride.se">KONTAKT@YOIRIDE.SE</a></h5>
 					</adress>
 				</div>
 			</div>

@@ -152,9 +152,9 @@ get_header();
 						<div>
 							<h4>Adress</h4>
 							<address>
-								YOIRIDE EVENT AB (556850-8351)<br>
-								ÖLANDSGATAN 42<br>
-								116 63 Stockholm
+								Yoiride Event AB (556850-8351)<br>
+								Ölandsgatan 42<br>
+								116 63 Stockholm	
 							</address>
 							<hr>
 							<h4>Nils Horn</h4>

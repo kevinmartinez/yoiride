@@ -15,7 +15,7 @@ get_header();
 					<div class="col-md-5 pull-left">
 						<div>
 							<h3>
-								2014 består vårt roadracingteam av Nils Horn och Samuel Lindergård. Vi är på jakt efter en duktig mekaniker som kan följa med oss på banorna runt om i Sverige. Läs gärna mer om detta nedan och se om du eller någon du känner skulle kunna passa. Tveka inte på att kontakta oss!
+								2014 består vårt roadracingteam av Nils Horn och Samuel Lindergård. Vi är nu på jakt efter en duktig mekaniker som kan följa med oss på banorna runt om i Sverige. Läs gärna mer om detta nedan och se om du eller någon du känner skulle kunna passa. Tveka inte på att kontakta oss!
 							</h3>
 						</div>
 					</div>
@@ -51,11 +51,10 @@ get_header();
 						</div>
 						<div class="col-md-7">
 							<p>Nils intresse för motorcyklar kom när han fyllde 18 och tog sitt MC kort. Sedan dess har han aldrig varit utan hoj. Som 20 åring fick han sitt drömjobb då han började han arbeta som MC-bud i Stockholm. Att få köra hoj 10 timmar om dagen och få betalt för det, kan det bli bättre?</p>
-							<p>2010 fick han upp ögonen för banracing då han tog ett par kurser via SMC. 2011 blev ett mellanår med sporthoj på gata medan 2012 blev fullspäckat men bandagar. Tävlingsdebuten kom i slutet av 2012 och redan tredje starten resulterade i en pallplats!
-							</p>
+							<p>2010 fick han upp ögonen för banracing då han tog ett par kurser via SMC. 2011 blev ett mellanår med sporthoj på gata. 2012 drog det igång på allvar med bankörningen och säsongen blev intensiv med många bandagar runt om i Sverige. Tävlingsdebuten kom i slutet av 2012 och redan tredje starten resulterade i en pallplats!</p>
 							<p>2013 blev första ”riktiga” tävlingssäsongen”. Siktet var inställt på toppen i Rookie 1000 och så blev det också. Efter 6 pallplaceringar, 7 krascher på kval och race lyckades han knipa en tredjeplats i totaltabellen.
 							</p>
-							<p>2014 kör Nils första säsongen i Superbike vilken är den högsta serien för 1000cc i Sverige.
+							<p>2014 kör Nils sin första säsong i Superbike som är den högsta serien för 1000cc i Sverige.
 							</p>
 						</div>
 					</div>
@@ -86,15 +85,14 @@ get_header();
 							En Crescent Compact -72 som hans syster inte fick se många gånger efter att hon fått den på sin femtonårsdag.
 							Sedan dess har hojarna kommit och gått i rask takt.
 							</p>
-							<p>Som 16åring kom det första körkortet och med den första sporthojen en Cagiva 125!
+							<p>Som 16åring kom det första körkortet och med den första sporthojen, en Cagiva 125!
 							</p>
 							<p>2008 införskaffades den första riktiga cykeln, en 1000cc sporthoj och då var han fast på riktigt.
 							</p>
 							<p>2010 var det dags för den första bandagen, en SMC kurs, och lyckan var total!</p>
-							<blockquote>&ldquo;Fantastisk känsla att komma till en racingbana för första gången i sitt liv och känna sig som en racingsjtärna med knäskrap i varje kurva i otroliga hastigheter som av en utomstående skulle beskrivas som, ja i princip stillastånde. En av de bästa dagarna i mitt liv!&rdquo;</blockquote>
-							<p>Sedan har det fortsatt det 2011 och 2012 med bandagar och mera bandagar, krascher och mera krascher, fram till debuten i Rookie i slutet av 2012 som resulterade i ett löst styre i handen efter en hård inbromsning efter 5 varv. Ingen målgång men ingen krasch denna gång.</p>
-							<p>2013 var det satsning i Rookie 1000 som gällde!
-							Fjärde helgen fick ett abrupt slut då nyckelbenet gick av efter än lätt omkullkörning i starten på Falkenberg, operation, titanskruv, och efter ett försök att köra igen en vecka efter operation vilket resulterade i att nyckelbenet bröts upp igen (utan krasch). Ny operation, ny skruv, och inget mer tävlande den säsongen!</p>
+							<blockquote class="team-quote">&ldquo;Fantastisk känsla att komma till en racingbana för första gången i sitt liv och känna sig som en racingsjtärna med knäskrap i varje kurva i otroliga hastigheter som av en utomstående skulle beskrivas som, ja i princip stillastånde. En av de bästa dagarna i mitt liv!&rdquo;</blockquote>
+							<p>Sedan har det fortsatt med bandagar och mera bandagar, krascher och mera krascher, fram till debuten i Rookie i slutet av 2012 som resulterade i ett löst styre i handen efter en hård inbromsning efter 5 varv. Ingen målgång denna gång och heller ingen krasch.</p>
+							<p>2013 var det satsning i Rookie 1000 som gällde! Fjärde helgen fick ett abrupt slut då nyckelbenet gick av efter än lätt omkullkörning i starten på Falkenberg. Operation, titanskruv, och efter ett försök att köra igen en vecka efter operation resulterade i att nyckelbenet bröts upp igen (utan krasch). Ny operation, ny skruv, och inget mer tävlande den säsongen!</p>
 							<p>2014 är det ny satsning i Rookie 1000 som gäller!</p>
 						</div>
 						<div class="col-md-5 text-right hidden-xs hidden-sm">
@@ -139,8 +137,8 @@ get_header();
 							<hr class="visible-xs">
 						</div>
 						<div class="col-md-7">
-							<p>Som mekaniker hos YOIRIDE blir man en väldigt viktig del i vår racing, det är vi tillsammans som kommer skörda vinster, land och rike runt! </p>
-							<p>Den mekaniker vi söker tycker att det är riktigt kul med motorsport och gillar att resa för att kränga däck, tanka våra hojar, hålla koll på våra loggningssystem den ska även tycka om att hjälpa våra kunder, även detta med ett leende på läpparna!
+							<p>Som mekaniker hos YOIRIDE blir man en väldigt viktig del i vår racing, det är vi tillsammans som kommer att skörda vinster, land och rike runt!</p>
+							<p>Den mekaniker vi söker tycker att det är riktigt kul med motorsport och gillar att resa, kränga däck, tanka våra hojar, hålla koll på våra loggningssystem den ska även tycka om att hjälpa våra kunder. Alltid med ett leende på läpparna!
 							</p>
 							<p>Flyter allt på under sommarsäsongen kommer det även finnas möjlighet att resa med oss till Spanien i höst och vinter.
 							</p>

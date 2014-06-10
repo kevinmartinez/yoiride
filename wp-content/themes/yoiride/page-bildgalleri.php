@@ -50,7 +50,7 @@ get_header();
 	
 	$query = new WP_query($args);
 		while($query->have_posts()) : $query->the_post();
-
+		if(!has_post_thumbnail()) continue;
 		$closed = 0;
 
 		if($start == 0) { 
@@ -76,29 +76,12 @@ get_header();
 			echo '</section>';
 			echo '</div><!-- /.SLUT -->';
 			$count = 0; $start = 0; $closed = 1; 
-		}
+		} else $count += 1;
 
-		$count += 1;
-
-/*
-    $attachments = get_children( array(
-        'post_parent' => get_the_ID(),
-        'post_status' => 'inherit',
-        'post_type' => 'attachment',
-        'post_mime_type' => 'image',
-        'order' => 'ASC',
-        'orderby' => 'menu_order ID',
-        'numberposts' => 1)
-    );
-	print_r($attachments);die;
-    foreach ( $attachments as $thumb_id => $attachment )
-        echo wp_get_attachment_image($thumb_id, $size); // whatever size you want
-die;
-*/
 		endwhile;
 		if ($closed == 0) {
                        echo '</section>';
-                        echo '</div><!-- /.SLUT -->';	
+                       echo '</div><!-- /.SLUT -->';	
 		} 
 
 ?>
@@ -108,7 +91,7 @@ die;
 		<section class="yellow-section">
 			<div class="container-fluid"><!-- CONTAINER 970px -->
 				<div class="col-md-12">
-					<h2 class="text-center tagline">&quot;A photograph shouldn't be just a picture, it should be a philosophy.&quot;</h2>
+					<h2 class="text-center tagline">&quot;You can observe a lot by just watching - Yogi Berra.&quot;</h2>
 				</div>
 			</div><!-- CONTAINER /.SLUT -->
 		</section><!-- TAGLINE /.SLUT -->
