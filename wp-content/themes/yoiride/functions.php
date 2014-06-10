@@ -102,9 +102,12 @@ function tire_save_price_meta($post_id, $post) {
  
         // verify this came from the our screen and with proper authorization,
         // because save_post can be triggered at other times
-        if ( !wp_verify_nonce( $_POST['tires_price_noncename'], plugin_basename(__FILE__) )) {
-        return $post->ID;
-        }
+	if(isset($_POST['tires_price_noncename']))
+        	if ( !wp_verify_nonce( $_POST['tires_price_noncename'], plugin_basename(__FILE__) )) {
+        	return $post->ID;
+        	}
+	else
+		return $post->ID;
  
         // Is the user allowed to edit the post or page?
         if ( !current_user_can( 'edit_post', $post->ID ))
@@ -136,6 +139,16 @@ add_action('save_post', 'tire_save_price_meta', 1, 2); // save the custom fields
 #remove_action('do_feed_rss', 'do_feed_rss', 10, 1);
 #remove_action('do_feed_rss2', 'do_feed_rss2', 10, 1);
 #remove_action('do_feed_atom', 'do_feed_atom', 10, 1);
+
+// Remove height/width attributes on images so they can be responsive
+add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10 );
+add_filter( 'image_send_to_editor', 'remove_thumbnail_dimensions', 10 );
+ 
+function remove_thumbnail_dimensions( $html ) {
+    $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+    return $html;
+}
+
 
 
 ?>
