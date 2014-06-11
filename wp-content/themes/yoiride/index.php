@@ -55,12 +55,6 @@ if (!is_front_page()) { ?>
 										<hr>
                                                                                 <p><i class="fa fa-comments"></i> <a href="<?php the_permalink() ?>#comments"><?echo get_comments_number(); ?> Kommentarer</a></p>
 
-                                        					<? 
-											if ( comments_open() || get_comments_number() ) {
-                                                						comments_template();
-                                        						} 
-										?>
-
 										<?php 
 										
 										$tags = get_the_tags(); 
@@ -88,7 +82,11 @@ if (!is_front_page()) { ?>
 											echo '</p>';
 										}
 										?>
-                                                                                </p>
+                                                                                <?
+                                                                                        if ( comments_open() || get_comments_number() ) {
+                                                                                                comments_template();
+                                                                                        }
+                                                                                ?>
                                                                         </div>
                                                                 </div>
 
