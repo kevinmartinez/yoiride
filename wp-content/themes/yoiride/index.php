@@ -49,10 +49,9 @@ if (!is_front_page()) { ?>
 										<br>
 									</div>
 								</div>	
-
+								<hr>
                                                                 <div class="row">
-                                                                        <div class="col-md-12">
-										<hr>
+                                                                        <div class="col-md-6">
                                                                                 <p><i class="fa fa-comments"></i> <a href="<?php the_permalink() ?>#comments"><?echo get_comments_number(); ?> Kommentarer</a></p>
 
 										<?php 
