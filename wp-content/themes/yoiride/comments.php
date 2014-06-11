@@ -78,7 +78,7 @@ $req = get_option( 'require_name_email' );
 $aria_req = ( $req ? " aria-required='true'" : '' );
 
 	$args = array('comment_notes_after' => '',
-		      'comment_notes_before' => '<p class="comment-notes">Din e-mail kommer inte att publiceras. Obligatoriska fält är markerade med *.</p>',
+		      'comment_notes_before' => '<p class="comment-notes">Namn och e-post är obligatoriskt.</p>',
 		      'title_reply' => 'Kommentera',
 		      'label_submit' => 'Skicka kommentar',
 		
@@ -86,25 +86,25 @@ $aria_req = ( $req ? " aria-required='true'" : '' );
 
     'author' =>
       '<p class="comment-form-author">' .
-      '<label for="author">Namn</label> ' .
-      ( $req ? '<span class="required">*</span>' : '' ) .
-      '<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+      '' .
+      ( $req ? '' : '' ) .
+      '<input id="author" placeholder="Namn" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
       '" size="30"' . $aria_req . ' /></p>',
 
     'email' =>
-      '<p class="comment-form-email"><label for="email">E-post</label> ' .
-      ( $req ? '<span class="required">*</span>' : '' ) .
-      '<input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+      '<p class="comment-form-email">' .
+      ( $req ? '' : '' ) .
+      '<input id="email" name="email" placeholder="E-post" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
       '" size="30"' . $aria_req . ' /></p>',
 
     'url' =>
-      '<p class="comment-form-url"><label for="url">Websida</label>' .
-      '<input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
+      '<p class="comment-form-url">' .
+      '<input id="url" name="url" type="text" placeholder="Websida" value="' . esc_attr( $commenter['comment_author_url'] ) .
       '" size="30" /></p>'
     )
   ),
 
-  'comment_field' =>  '<p class="comment-form-comment"><label for="comment">Kommentar</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true">' .
+  'comment_field' =>  '<p class="comment-form-comment"><textarea placeholder="Kommentar" id="comment" name="comment" cols="45" rows="8" aria-required="true">' .
     '</textarea></p>',
 
 	);
