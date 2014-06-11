@@ -32,7 +32,8 @@ if (!is_front_page()) { ?>
 								<div class="row"><!-- TITLE POST ROW -->
 									<div class="col-md-12">
 										<a href="<?echo get_author_posts_url( get_the_author_meta( 'ID' ) );?>" class="blog-th">
-										<img src="<?php bloginfo('template_url'); ?>/img/nils_profil.jpg">
+										<? $author = strtolower(get_the_author_meta('user_login'));?>	
+										<img src="<?php bloginfo('template_url'); ?>/img/<?echo $author;?>_profil.jpg">
 										</a>
 										<h4><a href="<?php the_permalink() ?>"><?php the_title_attribute(); ?></a></h4>
 										<p>
