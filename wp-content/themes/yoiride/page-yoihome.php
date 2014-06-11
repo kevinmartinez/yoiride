@@ -70,7 +70,7 @@ get_header();
 				<!-- NEWS HEAD -->
 					<div class="row">
 						<div class="col-md-6">
-							<h2>Nyheter</h2>
+							<h2>Senaste</h2>
 						</div>
 					</div>
 					<div class="row">

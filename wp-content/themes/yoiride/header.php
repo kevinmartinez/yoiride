@@ -54,6 +54,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="<? echo is_page(array("yoihome")) ? "active" : ""; ?>"><a href="/">HEM</a></li>
+							<li class="<? echo is_home() ? "active" : ""; ?>"><a href="/blog">BLOGG</a></li>
 							<li class="dropdown <? echo is_page(array("team","racerapporter","bilder","nyheters","sponsorer")) ? "active" : ""; ?>">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">RACING <b class="caret"></b></a>
 								<ul class="dropdown-menu sub-menu">
