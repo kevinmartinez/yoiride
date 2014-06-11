@@ -599,6 +599,10 @@ adress {
 	font-size: 28px;
 }
 
+.blog-section { 
+	padding-bottom: 50px; 
+}
+
 .blog-section a:hover {
 	color: #feca0a;
 }
