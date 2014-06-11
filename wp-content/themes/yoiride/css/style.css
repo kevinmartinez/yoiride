@@ -38,7 +38,7 @@ input:focus, a:focus {
 }
 
 .navbar-collapse {
-	max-height: 380px;
+	max-height: 380px !important;
 }
 
 h2.tagline {
@@ -68,10 +68,10 @@ h2.tagline {
 }
 
 blockquote {
-    padding: 0;
-    margin: 0;
-    font-size: inherit;
-    border-left: 0;
+	padding: 0;
+	margin: 0;
+	font-size: inherit;
+	border-left: 0;
 }
 
 /* Fonts & typography
@@ -189,12 +189,12 @@ a:focus {
 }
 
 .mini-tagline h3 {
-	    font-family: 'GothamBold';
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 1.3em;
-    color: #fff;
-    text-align: center;
+		font-family: 'GothamBold';
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.3em;
+	color: #fff;
+	text-align: center;
 }
 
 
@@ -398,7 +398,14 @@ a:focus {
 		font-family: GothamBold;
 		text-decoration: none;
 	}
-
+	figcaption p {
+		text-align: center;
+		max-width: 100%;
+		color: #000;
+		background-color: white;
+		font-family: GothamBold;
+		font-size: 20px;
+	}
 
 /* BREADCRUMBS OBSOBSOBS DISKUTERA
 ================================= */
@@ -574,7 +581,7 @@ adress {
 }
 
 .label-info {
-    background-color: #feca0a;
+	background-color: #feca0a;
 }
 
 .label {
@@ -608,6 +615,78 @@ adress {
 .blog-section .fa {
 	padding-left: 0;
 }
+
+/* Youtube iframe
+================================= */
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.entry-content img,
+.entry-content iframe,
+.entry-content object,
+.entry-content embed {
+	max-width: 100%;
+}
+/* Wordpress comments */
+
+
+
+/* Wordpress form
+================================= */
+
+/* Highlight active form field */
+.commentlist {
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.comment-form label {
+	margin-right: 20px;
+	min-width: 40px;
+}
+
+.comment-meta a {
+	font-size: 12px;
+	color: #545454;
+	font-style: italic;
+}
+
+.comment-meta a:hover {
+	color: #545454;
+	transition: none;
+}
+
+.comment-meta {
+
+}
+
+.fn {
+	font-size: 22px;
+}
+
+.comment-author {
+	margin-top: 20px;
+	font-weight: 700;
+}
+
+.comment-reply-link {
+	font-size: 16px;
+}
+
 
 /* Media Queries
 =================================
@@ -650,12 +729,12 @@ adress {
 	}
 
 	.mini-tagline h3 {
-	    font-family: 'GothamBold';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.3em;
-    color: #000;
-    text-align: justify;
+		font-family: 'GothamBold';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.3em;
+	color: #000;
+	text-align: justify;
 }
 
 			.gallery-bottom-caption {
@@ -684,6 +763,7 @@ adress {
 		font-weight: lighter;
 
 	}
+
 
 	/*
 	Fonts & typography
@@ -898,28 +978,8 @@ adress {
 	}
 }
 
-.video-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-}
-
-.video-container iframe,  
-.video-container object,  
-.video-container embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.entry-content img, 
-.entry-content iframe, 
-.entry-content object, 
-.entry-content embed {
-        max-width: 100%;
-}
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
 
