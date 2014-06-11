@@ -78,7 +78,7 @@ $req = get_option( 'require_name_email' );
 $aria_req = ( $req ? " aria-required='true'" : '' );
 
 	$args = array('comment_notes_after' => '',
-		      'comment_notes_before' => '<p class="comment-notes">Namn och e-post är obligatoriskt.</p>',
+		      'comment_notes_before' => '<p class="comment-notes">Namn och e-post är obligatoriska.</p>',
 		      'title_reply' => 'Kommentera',
 		      'label_submit' => 'Skicka kommentar',
 		
@@ -88,23 +88,23 @@ $aria_req = ( $req ? " aria-required='true'" : '' );
       '<p class="comment-form-author">' .
       '' .
       ( $req ? '' : '' ) .
-      '<input id="author" placeholder="Namn" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+      '<input id="author" class="form-control" placeholder="Namn" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
       '" size="30"' . $aria_req . ' /></p>',
 
     'email' =>
       '<p class="comment-form-email">' .
       ( $req ? '' : '' ) .
-      '<input id="email" name="email" placeholder="E-post" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+      '<input id="email" class="form-control" name="email" placeholder="E-post" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
       '" size="30"' . $aria_req . ' /></p>',
 
     'url' =>
       '<p class="comment-form-url">' .
-      '<input id="url" name="url" type="text" placeholder="Websida" value="' . esc_attr( $commenter['comment_author_url'] ) .
+      '<input id="url" name="url" class="form-control" type="text" placeholder="Websida" value="' . esc_attr( $commenter['comment_author_url'] ) .
       '" size="30" /></p>'
     )
   ),
 
-  'comment_field' =>  '<p class="comment-form-comment"><textarea placeholder="Kommentar" id="comment" name="comment" cols="45" rows="8" aria-required="true">' .
+  'comment_field' =>  '<p><textarea style="width: 100%" class="form-control" placeholder="Kommentar" id="comment" name="comment" rows="8" aria-required="true">' .
     '</textarea></p>',
 
 	);
