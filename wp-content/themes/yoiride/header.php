@@ -54,12 +54,12 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="<? echo is_page(array("yoihome")) ? "active" : ""; ?>"><a href="/">HEM</a></li>
-							<li class="<? echo is_home() ? "active" : ""; ?>"><a href="/blog">BLOGG</a></li>
+							<li class="<? echo is_home() ? "active" : ""; ?>"><a href="/nyheter">NYHETER</a></li>
 							<li class="dropdown <? echo is_page(array("team","racerapporter","bilder","nyheters","sponsorer")) ? "active" : ""; ?>">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">RACING <b class="caret"></b></a>
 								<ul class="dropdown-menu sub-menu">
 									<li><a href="/team">TEAM</a></li>
-									<!-- <li><a href="#">RACERAPPORTER</a></li> -->
+									<li><a href="/category/racerapporter/">RACERAPPORTER</a></li> 
 									<li><a href="/bildgalleri">BILDER</a></li>
 									<!--<li><a href="#">NYHETER</a></li> -->
 									<li><a href="/sponsorer">SPONSORER</a></li>
